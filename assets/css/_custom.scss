@@ -1,0 +1,96 @@
+@import "keyframes";
+
+.menu {
+    .menu-item {
+        &.active {
+            $border-height: .125rem;
+            font-weight: unset !important;
+            position: relative;
+            background-color: inherit;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                bottom: -1.5*$border-height;
+                left: 0;
+                right: 0;
+                height: $border-height;
+                z-index: -1;
+                background: linear-gradient(90deg, rgba($global-link-hover-color, 0.5), $global-link-hover-color, rgba($global-link-hover-color, 0.5));
+                border-radius: 2*$border-height;
+            }
+        }
+    }
+}
+
+/* Light mode definition */
+body {
+    // Background effect
+    animation-name: bg-pos;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    background: linear-gradient(60deg, $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color);
+    background-size: 600% 100%;
+
+    #mask {
+        background: url("../images/background-light.svg");
+    }
+
+    &>.wrapper {
+        background: linear-gradient(120deg,
+                rgba($global-background-color, 0.1) 0%,
+                rgba($global-background-color, 0.1) 10%,
+                $global-background-color 30%,
+                $global-background-color 70%,
+                rgba($global-background-color, 0.1) 90%,
+                rgba($global-background-color, 0.1) 100%);
+    }
+
+    // Home page tweaks
+    .home {
+        .home-profile {
+            .home-avatar img {
+                width: 9rem;
+            }
+
+            .links {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    // Link animation
+    a {
+        transition: color .2s;
+    }
+}
+
+/* Dark mode definition */
+body[theme=dark] {
+    // Background effect
+    background: linear-gradient(60deg, $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark);
+    background-size: 600% 100%;
+
+    #mask {
+        background: url("../images/background-dark.svg");
+    }
+
+    &>.wrapper {
+        $bg-dark-alpha: 0.75;
+        background: linear-gradient(120deg,
+                rgba($global-background-color-dark, $bg-dark-alpha) 0%,
+                rgba($global-background-color-dark, $bg-dark-alpha) 10%,
+                $global-background-color-dark 30%,
+                $global-background-color-dark 70%,
+                rgba($global-background-color-dark, $bg-dark-alpha) 90%,
+                rgba($global-background-color-dark, $bg-dark-alpha) 100%);
+    }
+
+    .menu .menu-item::after {
+        background: linear-gradient(90deg, rgba($global-link-hover-color-dark, 0.25), $global-link-hover-color-dark, rgba($global-link-hover-color-dark, 0.25));
+    }
+}
+
