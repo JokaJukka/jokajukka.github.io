@@ -1,5 +1,9 @@
 @import "keyframes";
 
+$gradient-light:    $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color;
+$gradient-dark:     $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark;
+
+// TODO Rework
 .menu {
     .menu-item {
         &.active {
@@ -17,7 +21,7 @@
                 right: 0;
                 height: $border-height;
                 z-index: -1;
-                background: linear-gradient(90deg, rgba($global-link-hover-color, 0.5), $global-link-hover-color, rgba($global-link-hover-color, 0.5));
+                background: linear-gradient(90deg, $gradient-light);
                 border-radius: 2*$border-height;
             }
         }
@@ -32,14 +36,41 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    background: linear-gradient(60deg, $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color);
+    background: linear-gradient(60deg, $gradient-light);
     background-size: 600% 100%;
+
+    .header-wrapper, .header-container {
+        background-color: $global-background-color;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: calc(100% + 2px);
+            z-index: -100;
+            background: linear-gradient(90deg, $gradient-light);
+            background-size: 400% 100%;
+            animation-name: bg-pos;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        }
+    }
 
     #mask {
         background: url("../images/background-light.svg");
     }
 
-    &>.wrapper {
+    #mask::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
         background: linear-gradient(120deg,
                 rgba($global-background-color, 0.1) 0%,
                 rgba($global-background-color, 0.1) 10%,
@@ -71,14 +102,22 @@ body {
 /* Dark mode definition */
 body[theme=dark] {
     // Background effect
-    background: linear-gradient(60deg, $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark);
+    background: linear-gradient(60deg, $gradient-dark);
     background-size: 600% 100%;
+
+    .header-wrapper, .header-container {
+        background-color: $global-background-color-dark;
+        &::before {
+            background: linear-gradient(90deg, $gradient-dark);
+            background-size: 800% 100%;
+        }
+    }
 
     #mask {
         background: url("../images/background-dark.svg");
     }
 
-    &>.wrapper {
+    #mask::after {
         $bg-dark-alpha: 0.75;
         background: linear-gradient(120deg,
                 rgba($global-background-color-dark, $bg-dark-alpha) 0%,
