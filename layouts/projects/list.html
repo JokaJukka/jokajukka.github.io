@@ -1,0 +1,78 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+{{- $params := .Scratch.Get "params" -}}
+<div class="page single special">
+    {{- /* Title */ -}}
+    <h1 class="single-title animated pulse faster">
+        {{- .Title -}}
+    </h1>
+
+    {{- /* Subtitle */ -}}
+    {{- with $params.subtitle -}}
+    <h2 class="single-subtitle">{{ . }}</h2>
+    {{- end -}}
+
+    {{- /* Content */ -}}
+    <div class="content" id="content">
+        {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome |
+        partial "function/content.html" | safeHTML -}}
+
+        {{ if .Params.categories }}
+        {{ range .Params.categories }}
+        <h1 class="project-cat-title">{{.title}}</h1>
+        <span class="project-cat-desc">{{.desc}}</span>
+        <div class="project-grid">
+            {{ range .projects }}
+            <div>
+                <div class="project-card-wrapper">
+                    {{ if .link }}
+                    <a class="project-card" href="{{.link}}">
+                        {{ else }}
+                        <div class="project-card">
+                            {{ end }}
+                            <div class="project-header">
+                                <h2 class="project-title">{{.title}}</h2>
+                                <h5 class="project-time">{{.from}} -<br>{{.to}}</h5>
+                            </div>
+                            <div class="clearfix"></div>
+                            {{ if .img }}
+                            <img src="{{.img}}" alt="{{.title}}">
+                            {{ end }}
+                            <p class="project-desc">{{.desc}}</p>
+                            {{ if .link }}
+                            <span class="project-link-info">Klikněte pro více informací</span>
+                            {{ end }}
+                            {{ if .link }}
+                    </a>
+                    {{ else }}
+                </div>
+                {{ end}}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+    {{- end -}}
+
+</div>
+
+{{- /* Comment */ -}}
+{{- partial "comment.html" . -}}
+</div>
+<script>
+    const mouseMoveHandler = e => {
+        const target = e.target;
+        const rect = target.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        target.style.setProperty("--mouse-x", `${x}px`);
+        target.style.setProperty("--mouse-y", `${y}px`);
+    }
+
+    for (const card of document.querySelectorAll(".project-card")) {
+        card.addEventListener("mousemove", mouseMoveHandler);
+    }
+</script>
+{{- end -}}

@@ -28,6 +28,10 @@ $gradient-dark:     $global-background-color-dark, darken($global-link-hover-col
     }
 }
 
+.clearfix {
+    clear: both;
+}
+
 /* Light mode definition */
 body {
     // Background effect
@@ -97,6 +101,78 @@ body {
     a {
         transition: color .2s;
     }
+
+
+    .page .project-cat-desc {
+        font-size: 1.25rem;
+        font-weight: normal;
+        font-style: italic;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    // Project cards
+    .project-grid {
+        display: grid;
+        gap: .5rem;
+        grid: auto / 50% 50%;
+        align-items: stretch;
+    }
+
+    .project-card-wrapper {
+        background-color: rgba($search-background-color-dark, 0.35);
+        border-radius: inherit;
+        display: flex;
+
+        & > .project-card {
+            height: calc(100% - 2px);
+            width: calc(100% - 2px);
+            margin: 1px;
+            &, &:hover, &:active {
+                color: $global-font-color;
+            }
+        }
+    }
+
+    .project-card {
+        background-color: rgba($global-background-color, 0.9);
+        position: relative;
+        padding: .375rem .5rem;
+        color: $global-font-color;
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+
+            .project-time {
+                flex-shrink: 0;
+            }
+        }
+
+        .project-link-info {
+            display: block;
+            float: right;
+            color: $global-link-hover-color;
+        }
+
+        &::before {
+            background: radial-gradient(900px circle at var(--mouse-x) var(--mouse-y), rgba($global-link-hover-color, 0.1), transparent 50%);
+            border-radius: inherit;
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 500ms;
+        }
+
+        &:hover::before {
+            opacity: 1;
+        }
+    }
 }
 
 /* Dark mode definition */
@@ -130,6 +206,18 @@ body[theme=dark] {
 
     .menu .menu-item::after {
         background: linear-gradient(90deg, rgba($global-link-hover-color-dark, 0.25), $global-link-hover-color-dark, rgba($global-link-hover-color-dark, 0.25));
+    }
+
+    .project-card {
+        background-color: rgba($search-background-color-dark, 0.95);
+        color: $global-font-color-dark;
+        &::before {
+            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba($global-background-color, 0.03), transparent 50%);
+        }
+    }
+
+    .project-card-wrapper {
+        background-color: rgba($search-background-color, 0.2);
     }
 }
 
