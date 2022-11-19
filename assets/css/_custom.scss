@@ -154,10 +154,9 @@ body {
             }
         }
 
-        .project-link-info {
-            display: block;
-            float: right;
-            color: $global-link-hover-color;
+        .project-links {
+            display: flex;
+            justify-content: end;
         }
 
         &::before {

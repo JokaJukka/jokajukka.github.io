@@ -37,9 +37,11 @@
                         {{ end }}
                         <p class="project-desc">{{.desc}}</p>
                         {{ if .link }}
-                        {{ range .link }}
-                        <a href="{{.href}}">{{.title}}</a>
-                        {{ end }}
+                        <div class="project-links">
+                            {{ range .link }}
+                            <a href="{{.href}}">{{.title}}</a>
+                            {{ end }}
+                        </div>
                         {{ end }}
                     </div>
                 </div>
