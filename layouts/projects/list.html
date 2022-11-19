@@ -25,39 +25,34 @@
         <div class="project-grid">
             {{ range .projects }}
             <div>
-                {{ if .link }}
-                <a class="card" href="{{.link}}">
-                    {{ else }}
-                    <div class="card project-card">
+                <div class="card project-card">
+                    <div class="card-header">
+                        <h2 class="project-title">{{.title}}</h2>
+                        <h5 class="project-time">{{.from}} -<br>{{.to}}</h5>
+                    </div>
+                    <div class="card-content">
+                        {{ if .img }}
+                        {{ $path := printf "%s" .img | printf "%s%s" "/images/projects/" | printf "%s"}}
+                        {{- dict "Src" $path "Linked" true "Caption" .title | partial "plugin/image.html" -}}
                         {{ end }}
-                        <div class="card-header">
-                            <h2 class="project-title">{{.title}}</h2>
-                            <h5 class="project-time">{{.from}} -<br>{{.to}}</h5>
-                        </div>
-                        <div class="card-content">
-                            {{ if .img }}
-                            <img src="{{.img}}" alt="{{.title}}">
-                            {{ end }}
-                            <p class="project-desc">{{.desc}}</p>
-                            {{ if .link }}
-                            <span class="project-link-info">Klikněte pro více informací</span>
-                            {{ end }}
-                        </div>
+                        <p class="project-desc">{{.desc}}</p>
                         {{ if .link }}
-                </a>
-                {{ else }}
+                        {{ range .link }}
+                        <a href="{{.href}}">{{.title}}</a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
             </div>
-            {{ end}}
+            {{ end }}
         </div>
         {{ end }}
+        {{- end -}}
+
     </div>
-    {{ end }}
-    {{- end -}}
 
-</div>
-
-{{- /* Comment */ -}}
-{{- partial "comment.html" . -}}
+    {{- /* Comment */ -}}
+    {{- partial "comment.html" . -}}
 </div>
 <script>
     const mouseMoveHandler = e => {
