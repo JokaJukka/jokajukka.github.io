@@ -1,7 +1,7 @@
 @import "keyframes";
 
-$gradient-light:    $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color;
-$gradient-dark:     $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark;
+$gradient-light: $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color;
+$gradient-dark: $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark;
 
 // TODO Rework
 .menu {
@@ -43,8 +43,13 @@ body {
     background: linear-gradient(60deg, $gradient-light);
     background-size: 600% 100%;
 
+    .page {
+        max-width: 1000px;
+    }
+
     .header-wrapper, .header-container {
         background-color: $global-background-color;
+
         &::before {
             content: "";
             position: absolute;
@@ -114,38 +119,38 @@ body {
     // Project cards
     .project-grid {
         display: grid;
-        gap: .5rem;
-        grid: auto / 50% 50%;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
         align-items: stretch;
+        margin-bottom: 2.5rem;
     }
 
-    .project-card-wrapper {
-        background-color: rgba($search-background-color-dark, 0.35);
-        border-radius: inherit;
-        display: flex;
-
-        & > .project-card {
-            height: calc(100% - 2px);
-            width: calc(100% - 2px);
-            margin: 1px;
-            &, &:hover, &:active {
-                color: $global-font-color;
-            }
-        }
-    }
-
-    .project-card {
-        background-color: rgba($global-background-color, 0.9);
-        position: relative;
-        padding: .375rem .5rem;
+    .card {
+        background-color: rgba($global-background-color, 0.5);
         color: $global-font-color;
+        position: relative;
+        margin: 1px;
+        border-left: .25rem solid $global-link-hover-color;
 
-        .project-header {
+        &, &:hover, &:active {
+            color: $global-font-color;
+        }
+
+        .card-content {
+            padding: .5rem .5rem;
+        }
+
+        .card-header {
             display: flex;
             justify-content: space-between;
+            background-color: rgba($global-link-hover-color, .2);
+            line-height: 1.25;
+            padding: 0 .5rem;
+            min-height: 6rem;
 
             .project-time {
                 flex-shrink: 0;
+                margin-left: .25rem;
             }
         }
 
@@ -164,9 +169,10 @@ body {
             position: absolute;
             left: 0;
             top: 0;
-            z-index: 2;
+            z-index: -1;
             opacity: 0;
             transition: opacity 500ms;
+            pointer-events: none;
         }
 
         &:hover::before {
@@ -183,6 +189,7 @@ body[theme=dark] {
 
     .header-wrapper, .header-container {
         background-color: $global-background-color-dark;
+
         &::before {
             background: linear-gradient(90deg, $gradient-dark);
             background-size: 800% 100%;
@@ -208,11 +215,20 @@ body[theme=dark] {
         background: linear-gradient(90deg, rgba($global-link-hover-color-dark, 0.25), $global-link-hover-color-dark, rgba($global-link-hover-color-dark, 0.25));
     }
 
-    .project-card {
-        background-color: rgba($search-background-color-dark, 0.95);
-        color: $global-font-color-dark;
+    .card {
+        background-color: rgba($global-background-color-dark, 0.5);
+        border-left-color: $global-link-hover-color-dark;
+
+        &, &:hover, &:active {
+            color: $global-font-color-dark;
+        }
+
+        .card-header {
+            background-color: rgba($global-link-hover-color-dark, .2);
+        }
+
         &::before {
-            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba($global-background-color, 0.03), transparent 50%);
+            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba($global-background-color, 0.05), transparent 50%);
         }
     }
 
@@ -220,4 +236,3 @@ body[theme=dark] {
         background-color: rgba($search-background-color, 0.2);
     }
 }
-

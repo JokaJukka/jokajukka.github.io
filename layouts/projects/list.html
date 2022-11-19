@@ -25,17 +25,16 @@
         <div class="project-grid">
             {{ range .projects }}
             <div>
-                <div class="project-card-wrapper">
-                    {{ if .link }}
-                    <a class="project-card" href="{{.link}}">
-                        {{ else }}
-                        <div class="project-card">
-                            {{ end }}
-                            <div class="project-header">
-                                <h2 class="project-title">{{.title}}</h2>
-                                <h5 class="project-time">{{.from}} -<br>{{.to}}</h5>
-                            </div>
-                            <div class="clearfix"></div>
+                {{ if .link }}
+                <a class="card" href="{{.link}}">
+                    {{ else }}
+                    <div class="card project-card">
+                        {{ end }}
+                        <div class="card-header">
+                            <h2 class="project-title">{{.title}}</h2>
+                            <h5 class="project-time">{{.from}} -<br>{{.to}}</h5>
+                        </div>
+                        <div class="card-content">
                             {{ if .img }}
                             <img src="{{.img}}" alt="{{.title}}">
                             {{ end }}
@@ -43,12 +42,12 @@
                             {{ if .link }}
                             <span class="project-link-info">Klikněte pro více informací</span>
                             {{ end }}
-                            {{ if .link }}
-                    </a>
-                    {{ else }}
-                </div>
-                {{ end}}
+                        </div>
+                        {{ if .link }}
+                </a>
+                {{ else }}
             </div>
+            {{ end}}
         </div>
         {{ end }}
     </div>
@@ -62,7 +61,7 @@
 </div>
 <script>
     const mouseMoveHandler = e => {
-        const target = e.target;
+        const target = e.currentTarget;
         const rect = target.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
@@ -71,7 +70,7 @@
         target.style.setProperty("--mouse-y", `${y}px`);
     }
 
-    for (const card of document.querySelectorAll(".project-card")) {
+    for (const card of document.querySelectorAll(".card")) {
         card.addEventListener("mousemove", mouseMoveHandler);
     }
 </script>
