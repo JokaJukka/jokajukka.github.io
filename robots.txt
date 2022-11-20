@@ -58,4 +58,4 @@ Disallow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://jokajukka.github.io/sitemap.xml
+Sitemap: https://jokajukka.github.io/en/sitemap.xml
