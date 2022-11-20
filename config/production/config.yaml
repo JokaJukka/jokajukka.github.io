@@ -1,1 +1,6 @@
 baseURL: "https://jokajukka.github.io"
+params:
+  analytics:
+    enable: true
+    google:
+      id: "G-VCLTQDZ7C4"
