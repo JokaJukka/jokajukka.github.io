@@ -1,0 +1,3 @@
+{{ $options := dict "Header" (.Get "header") }}
+{{ $options = dict "Content" .Inner | merge $options }}
+{{- partial "card.html" $options -}}
