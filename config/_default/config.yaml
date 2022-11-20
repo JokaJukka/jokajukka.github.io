@@ -1,12 +1,13 @@
-baseurl: 'http://jukka.local:1313'
-theme: loveit
-paginate: 10
-copyright: 2022 Miroslav Jarý <mira.jary@gmail.com>
+theme: doit
+
 enableRobotsTXT: true
 enableEmoji: true
-defaultContentLanguage: cs
-title: JokaJukka | Miroslav Jarý
 
+title: JokaJukka
+copyright: 2022 Miroslav Jarý <mira.jary@gmail.com>
+
+# Languages & multilang content
+defaultContentLanguage: cs
 languages:
   cs:
     languageName: Česky
@@ -19,18 +20,14 @@ languages:
           title: Miroslav Jarý <br><small>(JokaJukka)</small>
           subtitle: Student & vývojář
           social: true
-          typeit: true
-      page:
-        library:
-          js:
-            cardEffect: "js/cardEffect.js"
+          typeit: trues
     menu:
       main:
-        - weight: 1
-          identifier: about
-          pre: <i class='fas fa-user fa-fw'></i>
-          name: O mně
-          url: /about/
+        # - weight: 1
+        #   identifier: about
+        #   pre: <i class='fas fa-user fa-fw'></i>
+        #   name: O mně
+        #   url: /about/
         - weight: 2
           identifier: projects
           pre: <i class='fas fa-book-open fa-fw'></i>
@@ -54,11 +51,11 @@ languages:
           typeit: true
     menu:
       main:
-        - weight: 1
-          identifier: about
-          pre: <i class='fas fa-user fa-fw'></i>
-          name: About me
-          url: /en/about/
+        # - weight: 1
+        #   identifier: about
+        #   pre: <i class='fas fa-user fa-fw'></i>
+        #   name: About me
+        #   url: /en/about/
         - weight: 2
           identifier: projects
           pre: <i class='fas fa-book-open fa-fw'></i>
@@ -69,53 +66,39 @@ languages:
         #   pre: <i class='fas fa-phone fa-fw'></i>
         #   name: Contact
         #   url: /en/contact/
+
+# Page author
+author:
+  name: Miroslav Jarý
+  email: mira.jary@gmail.com
+  link: 'https://jokajukka.github.io'
+
+# Theme params
 params:
+  # Social networks
   social:
     Linkedin: jokajukka
     Github: jokajukka
     Twitter: jokajukka
     Instagram: mira.j.jary
     Facebook: mira.j.jary
-  version: 0.2.X
-  defaultTheme: auto
+    Mastodon: "@jukka@mastodon.arch-linux.cz"
+    Email: "mira.jary@gmail.com"
+  # Theme properties
+  version: "0.2.X"
   dateFormat: 02. 01. 2022
   title: JokaJukka
   description: Student & vývojář
-  header:
-    title:
-      name: JokaJukka
   footer:
-    enable: true
-    hugo: true
-    copyright: true
-    author: true
     since: 2022
-    license: >-
-      <a rel="license external nofollow noopener noreffer"
-      href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC
-      BY-NC 4.0</a>
-  section:
-    paginate: 10
-    dateFormat: 02. 01
-  list:
-    paginate: 10
-    dateFormat: 02. 01
-  app:
-    noFavicon: false
-    svgFavicon: ''
-    themeColor: '#ffffff'
-    iconColor: '#5bbad5'
-    tileColor: '#da532c'
-  home:
-    rss: 10
-    profile:
-      enable: true
-    posts:
-      enable: false
-author:
-  name: Miroslav Jarý
-  email: mira.jary@gmail.com
-  link: 'https://jokajukka.github.io'
+  
+  # CSS/JS libraries
+  page:
+    library:
+      js:
+        cardEffect: "js/cardEffect.js"
+
+# false is a necessary configuration (https://github.com/khusika/FeelIt/issues/158)
 markup:
   highlight:
     noClasses: false

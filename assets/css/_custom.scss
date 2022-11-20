@@ -1,38 +1,10 @@
 @import "keyframes";
 
-$gradient-light: $global-background-color, lighten($global-link-hover-color, 55%), $global-background-color;
-$gradient-dark: $global-background-color-dark, darken($global-link-hover-color-dark, 10%), $global-background-color-dark;
-
-// TODO Rework
-.menu {
-    .menu-item {
-        &.active {
-            $border-height: .125rem;
-            font-weight: unset !important;
-            position: relative;
-            background-color: inherit;
-
-            &::after {
-                content: '';
-                display: block;
-                position: absolute;
-                bottom: -1.5*$border-height;
-                left: 0;
-                right: 0;
-                height: $border-height;
-                z-index: -1;
-                background: linear-gradient(90deg, $gradient-light);
-                border-radius: 2*$border-height;
-            }
-        }
-    }
-}
-
 .clearfix {
     clear: both;
 }
 
-/* Light mode definition */
+/* United design definition - no specific colors/backgrounds! */
 body {
     // Background effect
     animation-name: bg-pos;
@@ -40,16 +12,12 @@ body {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    background: linear-gradient(60deg, $gradient-light);
-    background-size: 600% 100%;
 
     .page {
         max-width: 1000px;
     }
 
     .header-wrapper, .header-container {
-        background-color: $global-background-color;
-
         &::before {
             content: "";
             position: absolute;
@@ -58,7 +26,6 @@ body {
             width: 100%;
             height: calc(100% + 2px);
             z-index: -100;
-            background: linear-gradient(90deg, $gradient-light);
             background-size: 400% 100%;
             animation-name: bg-pos;
             animation-duration: 5s;
@@ -66,10 +33,6 @@ body {
             animation-direction: alternate;
             animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
         }
-    }
-
-    #mask {
-        background: url("../images/background-light.svg");
     }
 
     #mask::after {
@@ -80,13 +43,6 @@ body {
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: linear-gradient(120deg,
-                rgba($global-background-color, 0.1) 0%,
-                rgba($global-background-color, 0.1) 10%,
-                $global-background-color 30%,
-                $global-background-color 70%,
-                rgba($global-background-color, 0.1) 90%,
-                rgba($global-background-color, 0.1) 100%);
     }
 
     // Home page tweaks
@@ -126,15 +82,9 @@ body {
     }
 
     .card {
-        background-color: rgba($global-background-color, 0.5);
-        color: $global-font-color;
         position: relative;
         margin: 1px;
-        border-left: .25rem solid $global-link-hover-color;
-
-        &, &:hover, &:active {
-            color: $global-font-color;
-        }
+        border-left: .25rem solid;
 
         .card-content {
             padding: .5rem .5rem;
@@ -143,7 +93,6 @@ body {
         .card-header {
             display: flex;
             justify-content: space-between;
-            background-color: rgba($global-link-hover-color, .2);
             line-height: 1.25;
             padding: 0 .5rem;
             min-height: 6rem;
@@ -151,6 +100,7 @@ body {
             .project-time {
                 flex-shrink: 0;
                 margin-left: .25rem;
+                text-align: right;
             }
         }
 
@@ -160,7 +110,6 @@ body {
         }
 
         &::before {
-            background: radial-gradient(900px circle at var(--mouse-x) var(--mouse-y), rgba($global-link-hover-color, 0.1), transparent 50%);
             border-radius: inherit;
             content: "";
             height: 100%;
@@ -180,58 +129,4 @@ body {
     }
 }
 
-/* Dark mode definition */
-body[theme=dark] {
-    // Background effect
-    background: linear-gradient(60deg, $gradient-dark);
-    background-size: 600% 100%;
-
-    .header-wrapper, .header-container {
-        background-color: $global-background-color-dark;
-
-        &::before {
-            background: linear-gradient(90deg, $gradient-dark);
-            background-size: 800% 100%;
-        }
-    }
-
-    #mask {
-        background: url("../images/background-dark.svg");
-    }
-
-    #mask::after {
-        $bg-dark-alpha: 0.75;
-        background: linear-gradient(120deg,
-                rgba($global-background-color-dark, $bg-dark-alpha) 0%,
-                rgba($global-background-color-dark, $bg-dark-alpha) 10%,
-                $global-background-color-dark 30%,
-                $global-background-color-dark 70%,
-                rgba($global-background-color-dark, $bg-dark-alpha) 90%,
-                rgba($global-background-color-dark, $bg-dark-alpha) 100%);
-    }
-
-    .menu .menu-item::after {
-        background: linear-gradient(90deg, rgba($global-link-hover-color-dark, 0.25), $global-link-hover-color-dark, rgba($global-link-hover-color-dark, 0.25));
-    }
-
-    .card {
-        background-color: rgba($global-background-color-dark, 0.5);
-        border-left-color: $global-link-hover-color-dark;
-
-        &, &:hover, &:active {
-            color: $global-font-color-dark;
-        }
-
-        .card-header {
-            background-color: rgba($global-link-hover-color-dark, .2);
-        }
-
-        &::before {
-            background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba($global-background-color, 0.05), transparent 50%);
-        }
-    }
-
-    .project-card-wrapper {
-        background-color: rgba($search-background-color, 0.2);
-    }
-}
+@import "modes";
