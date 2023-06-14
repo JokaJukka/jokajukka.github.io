@@ -17,7 +17,7 @@ languages:
       home:
         profile:
           avatarURL: /images/avatar.jpg
-          title: Miroslav Jarý <br><small>(JokaJukka)</small>
+          title: Bc. Miroslav Jarý <br><small>(JokaJukka)</small>
           subtitle: Student & vývojář
           social: true
           typeit: trues
@@ -45,7 +45,7 @@ languages:
       home:
         profile:
           avatarURL: /images/avatar.jpg
-          title: Miroslav Jarý <br><small>(JokaJukka)</small>
+          title: Bc. Miroslav Jarý <br><small>(JokaJukka)</small>
           subtitle: Student & developer
           social: true
           typeit: true
@@ -75,6 +75,10 @@ author:
 
 # Theme params
 params:
+  analytics:
+    enable: true
+    google:
+      id: "G-VCLTQDZ7C4"
   # Social networks
   social:
     Linkedin: jokajukka
@@ -85,7 +89,7 @@ params:
     Mastodon: "@jukka@mastodon.arch-linux.cz"
     Email: "mira.jary@gmail.com"
   # Theme properties
-  version: "0.2.X"
+  version: "0.4.X"
   dateFormat: 02. 01. 2022
   title: JokaJukka
   description: Student & vývojář

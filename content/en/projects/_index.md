@@ -25,6 +25,22 @@ categories:
 - title: "Finished projects"
   desc: "My hall of fame..."
   projects:
+  - title: "PlagCheckr - Plagiarism detection"
+    desc: "Bachelor's thesis, focused on developing a plagiarism detection system."
+    img:  "plagcheckr.jpg"
+    from: november 2022
+    to:   june 2023
+    link:
+    - title: "Link to the thesis (Czech only)"
+      href: "http://hdl.handle.net/10467/108647"
+  - title: "KUTIFEL Website"
+    desc: "Presentation website of the company KUTIFEL s.r.o., built with Nette, a PHP framework."
+    img:  "kutifel.jpg"
+    from: august 2021
+    to:   april 2022
+    link:
+    - title: "Link to the website (Czech only)"
+      href: "https://kutifel.cz/"
   - title: "gBench ordering system"
     desc: "Internal web-based system for managing and recording orders."
     img:  "gbench-admin.jpg"
@@ -47,14 +63,14 @@ categories:
     - title: "Link to the website (Czech only)"
       href: "http://lorenctzb.com/"
   - title: "Výfuk contest website"
-    desc: "Website design for the physics contest Výfuk."
+    desc: "Second generation of website design for the physics contest Výfuk."
     img:  "vyfuk.jpg"
     from: "November 2019"
     to:   "October 2020"
     link:
     - title: "Link to the website (Czech only)"
       href: "https://vyfuk.org/"
-  - title: "stopr"
+  - title: "stopr - stock prediction"
     desc: "Python-based stock prediction app. Developed as part of the 42nd year of Students` Professional Activities (SPA)."
     img:  "stopr.jpg"
     from: January 2020
@@ -62,7 +78,7 @@ categories:
     link:
     - title: "Project repository"
       href: "https://github.com/JokaJukka/stopr"
-  - title: "Robot development using LEGO MINDSTORMS EV3"
+  - title: "LEGO MINDSTORMS EV3 robot development"
     desc: "Building and realization of robots for national competitions."
     img:  "robotics.jpg"
     from: February 2016
