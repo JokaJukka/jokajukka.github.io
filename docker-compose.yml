@@ -2,7 +2,9 @@ version: "3.7"
 
 services:
   hugo:
-    image: klakegg/hugo:ext-alpine
+    user: "1000"
+    image: hugomods/hugo:node-lts
+    entrypoint: sh -c "chmod +x docker_entrypoint.sh && ./docker_entrypoint.sh"
     command: server
     volumes:
       - ".:/src"

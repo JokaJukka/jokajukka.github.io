@@ -75,10 +75,6 @@ author:
 
 # Theme params
 params:
-  analytics:
-    enable: true
-    google:
-      id: "G-VCLTQDZ7C4"
   # Social networks
   social:
     Linkedin: jokajukka
