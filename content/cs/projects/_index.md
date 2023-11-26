@@ -1,10 +1,9 @@
 ---
 title: "Projekty"
-subtitle: "Co jsem vytvořil?"
+subtitle: "Práce, za kterou stojím..."
 lightgallery: true
 categories:
-- title: "Současné projekty"
-  desc: "Na čem aktuálně pracuji..."
+- title: "Aktivní projekty"
   projects:
   - title: "Moodle FEL ČVUT"
     desc: "Správa, údržba a vývoj pluginů do systému Moodle FEL, patřící pod Fakultu elektrotechnickou Českého vysokého učení technického v Praze."
@@ -22,8 +21,8 @@ categories:
     link:
     - title: "Odkaz na web"
       href: "https://gbench.cz/"
-- title: "Dokončené projekty"
-  desc: "Moje síň slávy..."
+
+- title: "Uzavřené projekty"
   projects:
   - title: "Detekce plagiátorství PlagCheckr"
     desc: "Bakalářská práce, jejímž cílem bylo vytvořit systém pro odhalování plagiátorství."
@@ -33,16 +32,8 @@ categories:
     link:
     - title: "Odkaz na práci"
       href: "http://hdl.handle.net/10467/108647"
-  - title: "Webové stránky KUTIFEL"
-    desc: "Prezentační web společnosti KUTIFEL s.r.o., vystavěný za pomocí PHP frameworku Nette."
-    img:  "kutifel.jpg"
-    from: srpen 2021
-    to:   duben 2022
-    link:
-    - title: "Odkaz na web"
-      href: "https://kutifel.cz/"
-  - title: "Objednávkový systém gBench"
-    desc: "Interní webový systém pro správu a evidenci objednávek."
+  - title: "Nabídkový systém gBench"
+    desc: "Interní webový systém pro správu a evidenci nabídek."
     img:  "gbench-admin.jpg"
     from: červen 2022
     to:   září 2022

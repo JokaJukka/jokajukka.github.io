@@ -1,10 +1,9 @@
 ---
-title: "Projects"
-subtitle: "What did i create?"
+title: "Portfolio"
+subtitle: "The work I stand for..."
 lightgallery: true
 categories:
-- title: "Current projects"
-  desc: "What I am working on now..."
+- title: "Active projects"
   projects:
   - title: "CTU FEE Moodle"
     desc: "Administration, maintenance and development of plugins for the Moodle FEE system, belonging to the Faculty of Electrical Engineering of the Czech Technical University in Prague."
@@ -22,8 +21,8 @@ categories:
     link:
     - title: "Link to the website (Czech only)"
       href: "https://gbench.cz/"
-- title: "Finished projects"
-  desc: "My hall of fame..."
+
+- title: "Completed projects"
   projects:
   - title: "PlagCheckr - Plagiarism detection"
     desc: "Bachelor's thesis, focused on developing a plagiarism detection system."
@@ -33,14 +32,6 @@ categories:
     link:
     - title: "Link to the thesis (Czech only)"
       href: "http://hdl.handle.net/10467/108647"
-  - title: "KUTIFEL Website"
-    desc: "Presentation website of the company KUTIFEL s.r.o., built with Nette, a PHP framework."
-    img:  "kutifel.jpg"
-    from: august 2021
-    to:   april 2022
-    link:
-    - title: "Link to the website (Czech only)"
-      href: "https://kutifel.cz/"
   - title: "gBench ordering system"
     desc: "Internal web-based system for managing and recording orders."
     img:  "gbench-admin.jpg"
