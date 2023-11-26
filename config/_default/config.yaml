@@ -91,13 +91,22 @@ params:
   description: Student & vývojář
   footer:
     since: 2022
-  
-  # CSS/JS libraries
   page:
+    # CSS/JS libraries
     library:
       js:
         cardEffect: "js/cardEffect.js"
-
+    # Page comments
+    comment:
+      enable: true
+      giscus:
+        enable: true
+        # owner/repo
+        dataRepo: "JokaJukka/jokajukka.github.io"
+        dataRepoId: "R_kgDOIVbmbw"
+        dataCategory: "Web comments"
+        dataCategoryId: "DIC_kwDOIVbmb84CbPX5"
+        dataMapping: "title"
 # false is a necessary configuration (https://github.com/khusika/FeelIt/issues/158)
 markup:
   highlight:
