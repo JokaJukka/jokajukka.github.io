@@ -57,13 +57,12 @@ languages:
           name: Projects
           url: /en/projects/
 
-# Page author
-author:
-  name: Miroslav Jarý
-  link: "https://jokajukka.github.io"
-
 # Theme params
 params:
+  # Page author
+  author:
+    name: Miroslav Jarý
+    link: "https://jokajukka.github.io"
   # Social networks
   social:
     Linkedin: jokajukka

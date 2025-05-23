@@ -1,9 +1,7 @@
-version: "3.7"
-
 services:
   hugo:
     user: "1000"
-    image: hugomods/hugo:node-lts-0.121.2
+    image: hugomods/hugo:node-lts-0.147.2
     entrypoint: sh -c "chmod +x docker_entrypoint.sh && ./docker_entrypoint.sh"
     command: server
     volumes:

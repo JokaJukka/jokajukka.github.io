@@ -5,19 +5,15 @@ $global-background-card-color-dark: #333;
 // Color of the link
 $global-link-color: #006d8f;
 $global-link-color-dark: #37c3ee;
-$global-link-color-black: #aaa;
 
 // Color of the hover link
 $global-link-hover-color: lighten($global-link-color, 20%);
 $global-link-hover-color-dark: darken($global-link-color-dark, 8%);
-$global-link-hover-color-black: darken($global-link-color-black, 10%);
 
 // Color of the single link
 $single-link-color: $global-link-color;
 $single-link-color-dark: $global-link-color-dark;
-$single-link-color-black: $global-link-color-black;
 
 // Color of the hover single link
 $single-link-hover-color: $global-link-hover-color;
 $single-link-hover-color-dark: $global-link-hover-color-dark;
-$single-link-hover-color-black: $global-link-hover-color-black;

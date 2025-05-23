@@ -1,4 +1,5 @@
 @import "keyframes";
+@import "modes";
 
 .clearfix {
     clear: both;
@@ -18,7 +19,8 @@ body {
         width: unset;
     }
 
-    .header-wrapper, .header-container {
+    .header-wrapper,
+    .header-container {
         &::before {
             content: "";
             position: absolute;
@@ -63,9 +65,8 @@ body {
 
     // Link animation
     a {
-        transition: color .2s;
+        transition: color 0.2s;
     }
-
 
     .page .project-cat-desc {
         font-size: 1.25rem;
@@ -87,22 +88,22 @@ body {
     .card {
         position: relative;
         margin: 1px;
-        border-left: .25rem solid;
+        border-left: 0.25rem solid;
         z-index: 0;
         .card-content {
-            padding: .5rem .5rem;
+            padding: 0.5rem 0.5rem;
         }
 
         .card-header {
             display: flex;
             justify-content: space-between;
             line-height: 1.25;
-            padding: 0 .5rem;
+            padding: 0 0.5rem;
             min-height: 6rem;
 
             .project-time {
                 flex-shrink: 0;
-                margin-left: .25rem;
+                margin-left: 0.25rem;
                 text-align: right;
             }
         }
@@ -131,5 +132,3 @@ body {
         }
     }
 }
-
-@import "modes";
