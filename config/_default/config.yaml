@@ -4,7 +4,7 @@ enableRobotsTXT: true
 enableEmoji: true
 
 title: JokaJukka
-copyright: 2022 Miroslav Jarý <mira.jary@gmail.com>
+copyright: 2025 Miroslav Jarý
 
 # Languages & multilang content
 defaultContentLanguage: cs
@@ -23,21 +23,16 @@ languages:
           typeit: trues
     menu:
       main:
-        # - weight: 1
-        #   identifier: about
-        #   pre: <i class='fas fa-user fa-fw'></i>
-        #   name: O mně
-        #   url: /about/
+        - weight: 1
+          identifier: blog
+          pre: <i class='fas fa-user fa-fw'></i>
+          name: Blog
+          url: /blog/
         - weight: 2
           identifier: projects
           pre: <i class='fas fa-book-open fa-fw'></i>
           name: Projekty
           url: /projects/
-        # - weight: 3
-        #   identifier: contact
-        #   pre: <i class='fas fa-phone fa-fw'></i>
-        #   name: Kontakt
-        #   url: /contact/
   en:
     languageName: English
     contentDir: content/en
@@ -51,27 +46,21 @@ languages:
           typeit: true
     menu:
       main:
-        # - weight: 1
-        #   identifier: about
-        #   pre: <i class='fas fa-user fa-fw'></i>
-        #   name: About me
-        #   url: /en/about/
+        - weight: 1
+          identifier: blog
+          pre: <i class='fas fa-user fa-fw'></i>
+          name: Blog
+          url: /en/blog/
         - weight: 2
           identifier: projects
           pre: <i class='fas fa-book-open fa-fw'></i>
           name: Projects
           url: /en/projects/
-        # - weight: 3
-        #   identifier: contact
-        #   pre: <i class='fas fa-phone fa-fw'></i>
-        #   name: Contact
-        #   url: /en/contact/
 
 # Page author
 author:
   name: Miroslav Jarý
-  email: mira.jary@gmail.com
-  link: 'https://jokajukka.github.io'
+  link: "https://jokajukka.github.io"
 
 # Theme params
 params:
@@ -80,10 +69,7 @@ params:
     Linkedin: jokajukka
     Github: jokajukka
     Twitter: jokajukka
-    Instagram: mira.j.jary
-    Facebook: mira.j.jary
     Mastodon: "@jukka@mastodon.arch-linux.cz"
-    Email: "mira.jary@gmail.com"
   # Theme properties
   version: "0.4.X"
   dateFormat: 02. 01. 2022
