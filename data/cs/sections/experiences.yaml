@@ -1,0 +1,71 @@
+section:
+  name: Zkušenosti
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: Fakulta elektrotechnická, České vysoké učení technické v Praze
+      url: "https://fel.cvut.cz/"
+      location: Praha
+      logo: /images/education/logo_fel_en.svg
+      overview: FEL je nejlepší elektrotechnická a informatická fakulta v ČR (podle mezinárodního hodnocení QS Ranking).
+    positions:
+      - designation: Cvičící
+        start: Úno 2024
+        responsibilities:
+          - Cvičící předmětů fakulty "Programování v Java" a "Objektový návrh a modelování".
+  - company:
+      name: Centrum znalostního managementu, FEL ČVUT
+      url: "https://czm.fel.cvut.cz/"
+      location: Praha
+      logo: /images/experiences/logo_czm.png
+      overview: CZM je samostatným pracovištěm děkanátu Fakulty elektrotechnické ČVUT. Jeho posláním je především rozvoj výuky a infrastruktury interních systémů fakulty, ale spolupracuje také s externími partnery.
+    positions:
+      - designation: Senior Backend vývojář
+        start: Čvc 2025
+        responsibilities:
+          - Vývoj podpůrných nástrojů pro [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Micronaut microservices v Kotlinu.
+
+      - designation: Vedoucí PHP vývojář
+        start: Úno 2022
+        end: Čvn 2025
+        responsibilities:
+          - Spolupráce na vývoji aplikace [CTU FEE Moodle](https://moodle.fel.cvut.cz/).
+          - Projektový manažer & vedoucí vývojář.
+
+      - designation: PHP vývojář
+        start: Pro 2020
+        end: Led 2022
+        responsibilities:
+          - Spolupráce na vývoji aplikace [CTU FEE Moodle](https://moodle.fel.cvut.cz/).
+          - Práce na zadaných úkolech samostatně nebo v týmu.
+  - company:
+      name: Na volné noze
+      location: remote
+    positions:
+      - designation: Webový vývojář
+        start: Bře 2020
+        responsibilities:
+          - Vývoj a údržba různých webových stránek pro firmy, jednotlivce apod.
+          - Práce v čistém PHP, s frameworky (Nette) a CMS (WordPress).
+  - company:
+      name: Fyzikální soutěž Výfuk
+      url: "https://vyfuk.org/"
+      location: remote
+      logo: /images/experiences/logo_vyfuk.svg
+      overview: Výfuk je český fyzikální korespondenční seminář pro žáky 5. – 9. tříd základních škol organizovaný středoškoláky a vysokoškoláky z celé republiky.
+    positions:
+      - designation: Vedoucí IT oddělení
+        start: Srp 2019
+        responsibilities:
+          - Správa a vývoj interních systémů (evidence a opravování úloh, interní komunikace).
+          - Údržba a návrh veřejných webových stránek.
+      - designation: Organizátor
+        start: Zář 2016
+        responsibilities:
+          - Vymýšlení a opravování soutěžních úloh.
+          - Organizování prezenčních akcí pro řešitele semináře.

@@ -17,10 +17,10 @@ degrees:
     customSections:
       - name: Specializations
         content: >
-          major in Software Engineering\
+          major in *Software Engineering*\
 
-          minor in Human and Computer Interaction
-      - name: Thesis
+          minor in *Human and Computer Interaction*
+      - name: Diploma thesis
         content: "[Integration of the TimesUP reporting tool into FEL.HUB platform](https://dspace.cvut.cz/handle/10467/123624)"
   - name: Bc. in Software Engineering
     icon: fa-code
@@ -30,7 +30,7 @@ degrees:
       url: "https://fel.cvut.cz/cs"
       logo: /images/education/logo_fel_en.svg
     customSections:
-      - name: Thesis
+      - name: Bachelor thesis
         content: "[PlagCheckr - Plagiarism detection with Moodle FEE integration](https://dspace.cvut.cz/handle/10467/108647)"
   - name: High School
     icon: fa-book-open

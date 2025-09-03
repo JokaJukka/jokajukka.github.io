@@ -6,6 +6,7 @@ module:
     - path: github.com/hugo-toha/toha/v4
 
 params:
+  background: "images/background_light.jpg"
   features:
     darkMode:
       enable: true
@@ -13,52 +14,11 @@ params:
     newsletter:
       enable: false
 # Languages & multilang content
-# defaultContentLanguage: cs
-# languages:
-#   cs:
-#     languageName: Česky
-#     weight: 10
-#     contentDir: content/cs
-#     params:
-#       home:
-#         profile:
-#           avatarURL: /images/avatar.jpg
-#           title: Bc. Miroslav Jarý <br><small>(JokaJukka)</small>
-#           subtitle: Student & vývojář
-#           social: true
-#           typeit: trues
-#     menu:
-#       main:
-#         - weight: 1
-#           identifier: blog
-#           pre: <i class='fas fa-user fa-fw'></i>
-#           name: Blog
-#           url: /blog/
-#         - weight: 2
-#           identifier: projects
-#           pre: <i class='fas fa-book-open fa-fw'></i>
-#           name: Projekty
-#           url: /projects/
-#   en:
-#     languageName: English
-#     contentDir: content/en
-#     params:
-#       home:
-#         profile:
-#           avatarURL: /images/avatar.jpg
-#           title: Bc. Miroslav Jarý <br><small>(JokaJukka)</small>
-#           subtitle: Student & developer
-#           social: true
-#           typeit: true
-#     menu:
-#       main:
-#         - weight: 1
-#           identifier: blog
-#           pre: <i class='fas fa-user fa-fw'></i>
-#           name: Blog
-#           url: /en/blog/
-#         - weight: 2
-#           identifier: projects
-#           pre: <i class='fas fa-book-open fa-fw'></i>
-#           name: Projects
-#           url: /en/projects/
+defaultContentLanguage: cs
+languages:
+  cs:
+    languageName: Česky
+    weight: 1
+  en:
+    languageName: English
+    weight: 2

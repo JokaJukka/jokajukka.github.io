@@ -1,0 +1,57 @@
+section:
+  name: O mně
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+designation: Backend vývojář & cvičící
+summary: >
+  Ahoj!
+
+
+  Jmenuji se Miroslav Jarý — většina lidí mi ale říká Míra. Jsem fanouškem open‑source softwaru, finské kultury a dobrého jídla.
+
+
+  Od útlého věku mě přitahovala technologie a věda. Na základní škole jsem se aktivně věnoval fyzice, na střední se můj zájem přesunul ke světu počítačů a technologií — a těmto koníčkům se věnuji dodnes.
+
+
+  Pokud máte zajímavou příležitost nebo se jen chcete podělit o myšlenku, neváhejte se ozvat.
+
+company:
+  name: Centrum pro znalostní management FEL ČVUT
+  url: "https://czm.fel.cvut.cz/"
+
+socialLinks:
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://www.github.com/JokaJukka"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/jokajukka"
+
+badges:
+  - type: soft-skill-indicator
+    name: Kreativita
+    percentage: 95
+    color: blue
+  - type: soft-skill-indicator
+    name: Rozhodování
+    percentage: 75
+    color: orange
+  - type: soft-skill-indicator
+    name: Vedení
+    percentage: 85
+    color: yellow
+  - type: soft-skill-indicator
+    name: Řešení problémů
+    percentage: 90
+    color: green
+  - type: soft-skill-indicator
+    name: Mentorství
+    percentage: 85
+    color: orange
+  - type: soft-skill-indicator
+    name: Vizuální vkus
+    percentage: 35
+    color: pink

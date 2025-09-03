@@ -12,7 +12,7 @@ experiences:
       url: "https://fel.cvut.cz/"
       location: Prague
       logo: /images/education/logo_fel_en.svg
-      overview: FEE is one of the best electrical engineering and computer science faculty in the Czech Republic (according to the international QS Ranking).
+      overview: FEE is the best electrical engineering and computer science faculty in the Czech Republic (according to the international QS Ranking).
     positions:
       - designation: Course Instructor
         start: Feb 2024
@@ -63,10 +63,11 @@ experiences:
       - designation: Head of IT Department
         start: Aug 2019
         responsibilities:
-          - Development of support tools for the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
-          - Micronaut microservices written in Kotlin.
+          - Administration and development of internal systems (problem submission & grading, internal communication).
+          - Maintenance and design of public websites.
 
       - designation: Organizer
         start: Sep 2016
         responsibilities:
-          - Instructor of the faculty subjects "Programming in Java" and "Object-oriented design and Modelling".
+          - Creating and grading competition problems.
+          - Organizing in-person events for the seminar participants.

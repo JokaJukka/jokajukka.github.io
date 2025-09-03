@@ -1,0 +1,41 @@
+section:
+  name: Vzdělání
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+  - name: Ing. v oboru Otevřená informatika
+    icon: fa-computer
+    timeframe: 2023-2025
+    institution:
+      name: FEL ČVUT v Praze
+      url: "https://fel.cvut.cz/cs"
+      logo: /images/education/logo_fel_cs.svg
+    customSections:
+      - name: Specializace
+        content: >
+          majoritní specializace *Softwarové inženýrství*\
+
+          minoritní specializace *Interakce člověka s počítačem*
+      - name: Diplomová práce
+        content: "[Integrace vykazovacího nástroje TimesUP do platformy HUB.FEL](https://dspace.cvut.cz/handle/10467/123624)"
+  - name: Bc. v oboru Softwarové inženýrství
+    icon: fa-code
+    timeframe: 2020-2023
+    institution:
+      name: FEL ČVUT v Praze
+      url: "https://fel.cvut.cz/cs"
+      logo: /images/education/logo_fel_cs.svg
+    customSections:
+      - name: Bakalářská práce
+        content: "[PlagCheckr - detekce plagiátorství s integrací do Moodle FEL](https://dspace.cvut.cz/handle/10467/108647)"
+  - name: Střední škola
+    icon: fa-book-open
+    timeframe: 2016-2020
+    institution:
+      name: Jiráskovo gymnázium Náchod
+      url: "https://www.gymnachod.cz/"
+      logo: /images/education/logo_jgn.png
