@@ -1,0 +1,37 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+designation: Backend Developer & Lecturer
+summary: "TODO"
+
+company:
+  name: Center for Knowledge Management FEL ČVUT
+  url: "https://czm.fel.cvut.cz/"
+
+socialLinks:
+  - name: GitHub
+    icon: "fab fa-github"
+    url: "https://www.github.com/JokaJukka"
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/jokajukka"
+
+badges:
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 90
+    color: blue
+
+  - type: soft-skill-indicator
+    name: Team Work
+    percentage: 90
+    color: yellow
+
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 85
+    color: orange

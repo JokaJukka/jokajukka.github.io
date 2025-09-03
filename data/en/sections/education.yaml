@@ -1,0 +1,41 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+  - name: Ing. in Open Informatics
+    icon: fa-computer
+    timeframe: 2023-2025
+    institution:
+      name: CTU FEE in Prague
+      url: "https://fel.cvut.cz/cs"
+      logo: /images/education/logo_fel_en.svg
+    customSections:
+      - name: Specializations
+        content: >
+          major in Software Engineering\
+
+          minor in Human and Computer Interaction
+      - name: Thesis
+        content: "[Integration of the TimesUP reporting tool into FEL.HUB platform](https://dspace.cvut.cz/handle/10467/123624)"
+  - name: Bc. in Software Engineering
+    icon: fa-code
+    timeframe: 2020-2023
+    institution:
+      name: CTU FEE in Prague
+      url: "https://fel.cvut.cz/cs"
+      logo: /images/education/logo_fel_en.svg
+    customSections:
+      - name: Thesis
+        content: "[PlagCheckr - Plagiarism detection with Moodle FEE integration](https://dspace.cvut.cz/handle/10467/108647)"
+  - name: High School
+    icon: fa-book-open
+    timeframe: 2016-2020
+    institution:
+      name: Jiráskovo gymnázium Náchod
+      url: "https://www.gymnachod.cz/"
+      logo: /images/education/logo_jgn.png
