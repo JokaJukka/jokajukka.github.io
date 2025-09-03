@@ -6,6 +6,9 @@ module:
     - path: github.com/hugo-toha/toha/v4
 
 params:
+  features:
+    darkMode:
+      enable: true
   footer:
     newsletter:
       enable: false
