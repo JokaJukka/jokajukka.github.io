@@ -6,7 +6,17 @@ section:
   showOnNavbar: true
 
 designation: Backend Developer & Lecturer
-summary: "TODO"
+summary: >
+  Moikka!
+
+
+  I'm Miroslav Jarý — most people call me Míra. I'm passionate about open-source software, Finnish culture, and good food.
+
+
+  From an early age I've been drawn to technology and science. I first immersed myself in physics during elementary school, then shifted my focus to computers and technology in high school — interests that still drive me today.
+
+
+  If you have an interesting opportunity or just want to share an idea, feel free to get in touch.
 
 company:
   name: Center for Knowledge Management FEL ČVUT
@@ -22,16 +32,26 @@ socialLinks:
 
 badges:
   - type: soft-skill-indicator
-    name: Leadership
-    percentage: 90
+    name: Creativity
+    percentage: 95
     color: blue
-
   - type: soft-skill-indicator
-    name: Team Work
-    percentage: 90
+    name: Decision-Making
+    percentage: 75
+    color: orange
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 85
     color: yellow
-
   - type: soft-skill-indicator
-    name: Hard Working
+    name: Problem-Solving
+    percentage: 90
+    color: green
+  - type: soft-skill-indicator
+    name: Mentorship
     percentage: 85
     color: orange
+  - type: soft-skill-indicator
+    name: Visual Taste
+    percentage: 35
+    color: pink
