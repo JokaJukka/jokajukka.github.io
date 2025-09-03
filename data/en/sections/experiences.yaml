@@ -1,0 +1,72 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+  - company:
+      name: Faculty of Electrical Engineering, Czech Technical University in Prague
+      url: "https://fel.cvut.cz/"
+      location: Prague
+      logo: /images/education/logo_fel_en.svg
+      overview: FEE is one of the best electrical engineering and computer science faculty in the Czech Republic (according to the international QS Ranking).
+    positions:
+      - designation: Course Instructor
+        start: Feb 2024
+        responsibilities:
+          - Instructor of the faculty subjects "Programming in Java" and "Object-oriented design and Modelling".
+  - company:
+      name: Center for Knowledge Management, CTU FEE
+      url: "https://czm.fel.cvut.cz/"
+      location: Prague
+      logo: /images/experiences/logo_czm.png
+      overview: CZM is an independent department of the Dean's Office of the Faculty of Electrical Engineering at CTU. Their mission is primarily to develop teaching and the infrastructure of the faculty's internal systems, but they also collaborate with external partners.
+    positions:
+      - designation: Senior Backend Developer
+        start: Jul 2025
+        responsibilities:
+          - Development of support tools for the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Micronaut microservices written in Kotlin.
+
+      - designation: Lead PHP Developer
+        start: Feb 2022
+        end: Jun 2025
+        responsibilities:
+          - Contributing to the development of [CTU FEE Moodle](https://moodle.fel.cvut.cz/) application.
+          - Project manager & lead developer.
+
+      - designation: PHP Developer
+        start: Dec 2020
+        end: Jan 2022
+        responsibilities:
+          - Contributing to the development of [CTU FEE Moodle](https://moodle.fel.cvut.cz/) application.
+          - Working on assigned tasks solo or in team.
+  - company:
+      name: Freelancer
+      location: remote
+    positions:
+      - designation: Web Developer
+        start: Mar 2020
+        responsibilities:
+          - Developing and maintaining various websites for companies, individuals etc.
+          - Working in plain PHP, with frameworks (Nette) and CMS (Wordpress).
+  - company:
+      name: Physics contest Výfuk
+      url: "https://vyfuk.org/"
+      location: remote
+      logo: /images/experiences/logo_vyfuk.svg
+      overview: Výfuk is a czech physics correspondence seminar for 5th - 9th grade elementary school students organized by high school and university students from all around the country.
+    positions:
+      - designation: Head of IT Department
+        start: Aug 2019
+        responsibilities:
+          - Development of support tools for the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Micronaut microservices written in Kotlin.
+
+      - designation: Organizer
+        start: Sep 2016
+        responsibilities:
+          - Instructor of the faculty subjects "Programming in Java" and "Object-oriented design and Modelling".
