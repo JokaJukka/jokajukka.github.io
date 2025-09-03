@@ -1,192 +1,131 @@
-# === baseof ==
-[backToTop]
-other = "Zpět nahoru"
+# More documentation here: https://github.com/nicksnyder/go-i18n
+[home]
+other = "Domů"
 
-[viewComments]
-other = "View Comments"
-# === baseof ==
-
-# === Post ===
 [posts]
-other = "Posts"
-# === Post ===
+other = "Příspěvky"
 
-# === Taxonomy ===
-[allSome]
-other = "All {{ .Some }}"
-
-[tag]
-other = "Tag"
+[toc_heading]
+other = "Obsah"
 
 [tags]
-other = "Tags"
-
-[category]
-other = "Category"
+other = "Štítky"
 
 [categories]
-other = "Categories"
-# === Taxonomy ===
+other = "Kategorie"
 
-# === Pagination ===
+[at]
+other = "v"
+
+[resume]
+other = "Můj životopis"
+
+[navigation]
+other = "Navigace"
+
+[contact_me]
+other = "Kontaktujte mě:"
+
+[email]
+other = "E-mail"
+
+[phone]
+other = "Telefon"
+
+[newsletter_text]
+other = "Zůstaňte v obraze díky e‑mailovým upozorněním"
+
+[newsletter_input_placeholder]
+other = "Zadejte e‑mail"
+
+[newsletter_warning]
+other = "Zadáním své e‑mailové adresy souhlasíte s odběrem newsletteru tohoto webu."
+
+[submit]
+other = "Odeslat"
+
+[hugoAttributionText]
+other = "Běží na"
+
+[prev]
+other = "Předchozí"
+
+[next]
+other = "Další"
+
+[share_on]
+other = "Sdílet na"
+
+[improve_this_page]
+other = "Vylepšit tuto stránku"
+
+[out_of]
+other = "z"
+
+[publications]
+other = "Publikace"
+
+[taken_courses]
+other = "Absolvované kurzy"
+
+[course_name]
+other = "Název kurzu"
+
+[total_credit]
+other = "Celkový počet kreditů"
+
+[obtained_credit]
+other = "Získané kredity"
+
+[extracurricular_activities]
+other = "Mimoškolní aktivity"
+
+[show_more]
+other = "Zobrazit více"
+
+[show_less]
+other = "Zobrazit méně"
+
+[responsibilities]
+other = "Zodpovědnosti:"
+
+[present]
+other = "dosud"
+
+[comments_javascript]
+other = "Pro zobrazení povolte JavaScript"
+
+[comments_by]
+other = "komentáře zajišťuje"
+
+[read]
+other = "Číst"
+
+[project_star]
+other = "Star"
+
+[project_details]
+other = "Podrobnosti"
+
+[err_404]
+other = "Stránka, kterou hledáte, zatím neexistuje."
+
 [more]
-other = "More"
-# === Pagination ===
+other = "Více"
 
-# === partials/header.html ===
-[selectLanguage]
-other = "Select Language"
+[view_certificate]
+other = "Zobrazit certifikát"
 
-[switchTheme]
-other = "Switch Theme"
-# === partials/header.html ===
+[notes]
+other = "Poznámky"
 
-# === partials/footer.html ===
-[poweredBySome]
-other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
-# === partials/footer.html ===
+[disclaimer_text]
+other = "Právní upozornění"
 
-# === partials/comment.html ===
-[valineLang]
-other = "en"
-
-[valinePlaceholder]
-other = "Your comment ..."
-
-[facebookLanguageCode]
-other = "en_US"
-# === partials/comment.html ===
-
-# === partials/assets.html ===
 [search]
-other = "Search"
+other = "Hledat"
 
-[searchPlaceholder]
-other = "Search titles or contents..."
-
-[clear]
-other = "Clear"
-
-[cancel]
-other = "Cancel"
-
-[noResultsFound]
-other = "No results found"
-
-[lunrLanguageCode]
-other = "en"
-
-[copyToClipboard]
-other = "Copy to clipboard"
-
-[cookieconsentMessage]
-other = "This website uses Cookies to improve your experience."
-
-[cookieconsentDismiss]
-other = "Got it!"
-
-[cookieconsentLink]
-other = "Learn more"
-# === partials/assets.html ===
-
-# === partials/plugin/share.html ===
-[shareOn]
-other = "Share on"
-# === partials/plugin/share.html ===
-
-# === posts/single.html ===
-[contents]
-other = "Contents"
-
-[publishedOnDate]
-other = "published on {{ .Date }}"
-
-[includedInCategories]
-other = "included in {{ .Categories }}"
-
-[wordCount]
-one = "One word"
-other = "{{ .Count }} words"
-
-[readingTime]
-one = "One minute"
-other = "{{ .Count }} minutes"
-
-[views]
-other = "views"
-
-[author]
-other = "Author"
-
-[updatedOnDate]
-other = "Updated on {{ .Date }}"
-
-[readMarkdown]
-other = "Read Markdown"
-
-[back]
-other = "Back"
-
-[home]
-other = "Home"
-
-[readMore]
-other = "Read More"
-# === posts/single.html ===
-
-# === 404.html ===
-[pageNotFound]
-other = "Page not found"
-
-[pageNotFoundText]
-other = "The page you're looking for doesn't exist. Sorry."
-# === 404.html ===
-
-# === shortcodes/admonition.html ===
-[note]
-other = "Note"
-
-[abstract]
-other = "Abstract"
-
-[info]
-other = "Info"
-
-[tip]
-other = "Tip"
-
-[success]
-other = "Success"
-
-[question]
-other = "Question"
-
-[warning]
-other = "Warning"
-
-[failure]
-other = "Failure"
-
-[danger]
-other = "Danger"
-
-[bug]
-other = "Bug"
-
-[example]
-other = "Example"
-
-[quote]
-other = "Quote"
-# === shortcodes/admonition.html ===
-
-# === shortcodes/version.html ===
-[new]
-other = "NEW"
-
-[changed]
-other = "CHANGED"
-
-[deleted]
-other = "DELETED"
-# === shortcodes/version.html ===
+[minute]
+one = "minuta"
+few = "minuty"
+other = "minut"
