@@ -9,13 +9,13 @@ buttons:
   - name: Vše
     filter: "all"
   - name: Profesní
-    filter: "professional"
+    filter: "profesní"
   - name: Akademické
-    filter: "academic"
+    filter: "akademické"
   - name: Dokončené
-    filter: "finished"
+    filter: "dokončené"
   - name: Probíhající
-    filter: "ongoing"
+    filter: "probíhající"
 
 projects:
   # - name: Časová agenda pro CZM
@@ -25,58 +25,58 @@ projects:
     timeline: "Srp 2020 - dosud"
     summary: "![](/images/projects/gbench-web.jpg) Webové stránky s designem a architekturou na míru, včetně vlastního konfigurátoru produktů."
     url: "https://gbench.cz/"
-    tags: ["professional", "ongoing"]
+    tags: ["profesní", "probíhající"]
 
   - name: Moodle FEL ČVUT
     role: Vývojář & vedoucí projektu
     timeline: "Lis 2020 - Čvn 2025"
     summary: "![](/images/projects/moodle.jpg) Správa, údržba a vývoj pluginů do systému Moodle FEL, patřící pod Fakultu elektrotechnickou Českého vysokého učení technického v Praze."
     url: "https://moodle.fel.cvut.cz/?lang=cs"
-    tags: ["academic", "ongoing"]
+    tags: ["akademické", "probíhající"]
 
   - name: PlagCheckr - detekce plagiátorství
     role: Autor
     timeline: "Lis 2022 - Čvn 2023"
     summary: "![](/images/projects/plagcheckr.jpg) Bakalářská práce, jejímž cílem bylo vytvořit systém pro odhalování plagiátorství."
     url: "http://hdl.handle.net/10467/108647"
-    tags: ["academic", "finished"]
+    tags: ["akademické", "dokončené"]
 
   - name: gBench objednávkový systém
     role: Návrhář & vývojář
     timeline: "Čvn 2022 - Zář 2022"
     summary: "![](/images/projects/gbench-admin.jpg) Interní webový systém pro správu a evidenci nabídek."
-    tags: ["professional", "finished"]
+    tags: ["profesní", "dokončené"]
 
   - name: Lorenc TZB web
     role: Návrhář & vývojář
     timeline: "Kvě 2020 - Úno 2021"
     summary: "![](/images/projects/lorenctzb.jpg) Prezentační web s designem a architekturou na míru."
     url: "http://lorenctzb.com/"
-    tags: ["professional", "finished"]
+    tags: ["profesní", "dokončené"]
 
   - name: Lcafé Hořičky e‑shop
     role: Návrhář & vývojář
     timeline: "Srp 2020 - Pro 2020"
     summary: "![](/images/projects/lcafe.jpg) Design e-shopu a webových stránek, založených na redakčním systému Wordpress."
     url: "https://lcafehoricky.cz/"
-    tags: ["professional", "finished"]
+    tags: ["profesní", "dokončené"]
 
   - name: Web soutěže Výfuk
     role: Návrhář & vývojář
     timeline: "Lis 2019 - Říj 2020"
     summary: "![](/images/projects/vyfuk.jpg) Druhá generace designu webových stránek korespondenčního semináře Výfuk."
     url: "https://vyfuk.org/"
-    tags: ["academic", "finished"]
+    tags: ["akademické", "dokončené"]
 
   - name: stopr - predikce akcií
     role: Autor
     timeline: "Led 2020 - Kvě 2020"
     summary: "![](/images/projects/stopr.jpg) Aplikace v jazyce Python, určená k predikci vývoje cen akcií na světové burze. Vypracováno v rámci 42. ročníku Středoškolské odborné činnosti."
     repo: "https://github.com/JokaJukka/stopr"
-    tags: ["academic", "finished"]
+    tags: ["akademické", "dokončené"]
 
   - name: Vývoj LEGO MINDSTORMS EV3 robota
     role: Inženýr
     timeline: "Úno 2016 - Led 2020"
     summary: "![](/images/projects/robotics.jpg) Stavba a realizace robotů pro celostátní soutěže."
-    tags: ["academic", "robotics"]
+    tags: ["akademické", "robotics"]
