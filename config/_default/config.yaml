@@ -21,15 +21,12 @@ params:
   features:
     flags:
       enable: true
-      theme:
-        enable: true
-        services:
-          light: true
-          dark: true
-          default: system
+    theme:
+      enable: true
   footer:
     newsletter:
       enable: false
+
 # Languages & multilang content
 defaultContentLanguage: cz
 languages:
