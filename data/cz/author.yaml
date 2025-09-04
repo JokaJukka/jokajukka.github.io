@@ -6,10 +6,7 @@ contactInfo:
     icon: signal-messenger
     url: "https://signal.me/#eu/n-yevPkd8ZAuftIwXJ3Tm_Lzo2cDIetO_T7hG2rbW-hCr9EObfdOJK2WIc0fkkuH"
     text: "Signal"
-  linkedin:
-    icon: "linkedin"
-    url: "https://linkedin.com/in/jokajukka"
-    text: "LinkedIn"
+  linkedin: "jokajukka"
 
 summary:
   - Jsem vyučující
