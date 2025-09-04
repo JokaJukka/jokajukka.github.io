@@ -29,6 +29,9 @@ socialLinks:
   - name: LinkedIn
     icon: "fab fa-linkedin"
     url: "https://linkedin.com/in/jokajukka"
+  - name: Signal
+    icon: "fab fa-signal"
+    url: "https://signal.me/#eu/n-yevPkd8ZAuftIwXJ3Tm_Lzo2cDIetO_T7hG2rbW-hCr9EObfdOJK2WIc0fkkuH"
 
 badges:
   - type: soft-skill-indicator

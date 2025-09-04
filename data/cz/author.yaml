@@ -1,10 +1,19 @@
 name: "Ing. Miroslav Jarý"
 # nickname: "JokaJukka"
 image: "images/avatar.jpg"
-# contactInfo:
-#   email: "mira.jary@gmail.com"
+contactInfo:
+  signal:
+    icon: signal
+    url: "https://signal.me/#eu/n-yevPkd8ZAuftIwXJ3Tm_Lzo2cDIetO_T7hG2rbW-hCr9EObfdOJK2WIc0fkkuH"
+    text: "Signal"
+  linkedin:
+    icon: "linkedin"
+    url: "https://linkedin.com/in/jokajukka"
+    text: "LinkedIn"
 
 summary:
   - Jsem vyučující
   - Jsem inženýr
+  - Jsem vývojář
+  - Jsem milovník Linuxu
   - I use Arch btw
