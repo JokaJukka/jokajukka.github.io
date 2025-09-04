@@ -3,7 +3,7 @@ name: "Ing. Miroslav Jarý"
 image: "images/avatar.jpg"
 contactInfo:
   signal:
-    icon: signal
+    icon: signal-messenger
     url: "https://signal.me/#eu/n-yevPkd8ZAuftIwXJ3Tm_Lzo2cDIetO_T7hG2rbW-hCr9EObfdOJK2WIc0fkkuH"
     text: "Signal"
   linkedin:
