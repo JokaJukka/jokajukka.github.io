@@ -18,6 +18,7 @@ module:
 
 params:
   background: "images/background_light.jpg"
+  darkBackground: "images/background_dark.jpg"
   features:
     flags:
       enable: true
