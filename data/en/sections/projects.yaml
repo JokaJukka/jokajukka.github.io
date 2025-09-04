@@ -36,7 +36,7 @@ projects:
     role: Author
     timeline: "Nov 2022 - Jun 2023"
     summary: "![](/images/projects/plagcheckr.jpg) Bachelor's thesis focused on developing a plagiarism detection system."
-    url: "http://hdl.handle.net/10467/108647"
+    url: "https://hdl.handle.net/10467/108647"
     tags: ["academic", "finished"]
   - name: gBench ordering system
     role: Designer & Developer
@@ -47,7 +47,7 @@ projects:
     role: Designer & Developer
     timeline: "May 2020 - Feb 2021"
     summary: "![](/images/projects/lorenctzb.jpg) Complete website for construction consulting company, with custom design and architecture."
-    url: "http://lorenctzb.com/"
+    url: "https://lorenctzb.com/"
     tags: ["professional", "finished"]
   - name: Lcafé Hořičky e-shop
     role: Designer & Developer

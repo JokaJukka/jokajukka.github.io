@@ -38,7 +38,7 @@ projects:
     role: Autor
     timeline: "Lis 2022 - Čvn 2023"
     summary: "![](/images/projects/plagcheckr.jpg) Bakalářská práce, jejímž cílem bylo vytvořit systém pro odhalování plagiátorství."
-    url: "http://hdl.handle.net/10467/108647"
+    url: "https://hdl.handle.net/10467/108647"
     tags: ["akademické", "dokončené"]
 
   - name: gBench objednávkový systém
@@ -51,7 +51,7 @@ projects:
     role: Návrhář & vývojář
     timeline: "Kvě 2020 - Úno 2021"
     summary: "![](/images/projects/lorenctzb.jpg) Prezentační web s designem a architekturou na míru."
-    url: "http://lorenctzb.com/"
+    url: "https://lorenctzb.com/"
     tags: ["profesní", "dokončené"]
 
   - name: Lcafé Hořičky e‑shop
