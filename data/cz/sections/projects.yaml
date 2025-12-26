@@ -19,20 +19,26 @@ buttons:
 
 projects:
   # - name: Časová agenda pro CZM
-
-  - name: gBench web
-    role: Vývojář
-    timeline: "Srp 2020 - dosud"
-    summary: "![](/images/projects/gbench-web.jpg) Webové stránky s designem a architekturou na míru, včetně vlastního konfigurátoru produktů."
-    url: "https://gbench.cz/"
+  - name: Vývoj DEUSS Core & Whitelabel aplikace
+    role: Kotlin Developer & Offchain group TechLead
+    timeline: "Čvc 2025 - dosud"
+    summary: "![](/images/projects/deuss.svg) Backendový vývojář & TechLead v blockchain iniciativě DEUSS, umožňující malým a středním podnikům vydávání dlouhodobých digitálních dluhopisů dostupných napříč EU."
     tags: ["profesní", "probíhající"]
+    url: "https://deussblockchain.eu"
+
+  - name: Agenda vykazování pro platformu FEL.HUB
+    role: Autor
+    timeline: "Srp 2024 - dosud"
+    summary: "![](/images/projects/timesup.png) Diplomová práce zaměřená na vývoj nové agendy integrované do fakultní platformy HUB.FEL, používané pro sledování a vykazování stráveného času stážisty nad projekty a jednotlivými úkoly."
+    tags: ["akademické", "probíhající"]
+    url: "https://hdl.handle.net/10467/108647"
 
   - name: Moodle FEL ČVUT
     role: Vývojář & vedoucí projektu
     timeline: "Lis 2020 - Čvn 2025"
     summary: "![](/images/projects/moodle.jpg) Správa, údržba a vývoj pluginů do systému Moodle FEL, patřící pod Fakultu elektrotechnickou Českého vysokého učení technického v Praze."
     url: "https://moodle.fel.cvut.cz/?lang=cs"
-    tags: ["akademické", "probíhající"]
+    tags: ["akademické", "dokončené"]
 
   - name: PlagCheckr - detekce plagiátorství
     role: Autor
@@ -40,6 +46,13 @@ projects:
     summary: "![](/images/projects/plagcheckr.jpg) Bakalářská práce, jejímž cílem bylo vytvořit systém pro odhalování plagiátorství."
     url: "https://hdl.handle.net/10467/108647"
     tags: ["akademické", "dokončené"]
+
+  - name: gBench web
+    role: Vývojář
+    timeline: "Srp 2021 - Pro 2023"
+    summary: "![](/images/projects/gbench-web.jpg) Webové stránky s designem a architekturou na míru, včetně vlastního konfigurátoru produktů."
+    url: "https://gbench.cz/"
+    tags: ["profesní", "dokončené"]
 
   - name: gBench objednávkový systém
     role: Návrhář & vývojář
