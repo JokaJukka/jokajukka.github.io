@@ -27,7 +27,7 @@ projects:
   - name: Time tracking agenda for FEL.HUB platform
     role: Author
     timeline: "Aug 2024 - Present"
-    summary: "![](/images/projects/timesup.png) Diploma's thesis focused on developing a new agenda integrated into FEL.HUB platform used to track and report intern's spent hours on projects and tasks."
+    summary: "![](/images/projects/timesup.png) Diploma's thesis focused on developing a new agenda integrated into HUB.FEL faculty platform used to track and report intern's spent hours on projects and tasks."
     tags: ["academic", "ongoing"]
     url: "https://hdl.handle.net/10467/108647"
   - name: CTU FEE Moodle
