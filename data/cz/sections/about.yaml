@@ -43,8 +43,8 @@ badges:
     percentage: 75
     color: orange
   - type: soft-skill-indicator
-    name: Vedení
-    percentage: 85
+    name: Leadership
+    percentage: 80
     color: yellow
   - type: soft-skill-indicator
     name: Řešení problémů

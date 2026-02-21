@@ -44,7 +44,7 @@ badges:
     color: orange
   - type: soft-skill-indicator
     name: Leadership
-    percentage: 85
+    percentage: 80
     color: yellow
   - type: soft-skill-indicator
     name: Problem-Solving
