@@ -18,7 +18,6 @@ buttons:
     filter: "probíhající"
 
 projects:
-  # - name: Časová agenda pro CZM
   - name: Vývoj DEUSS Core & Whitelabel aplikace
     role: Kotlin Developer & Offchain group TechLead
     timeline: "Čvc 2025 - dosud"
@@ -28,7 +27,7 @@ projects:
 
   - name: Agenda vykazování pro platformu FEL.HUB
     role: Autor
-    timeline: "Srp 2024 - dosud"
+    timeline: "Srp 2024 - Led 2026"
     summary: "![](/images/projects/timesup.png) Diplomová práce zaměřená na vývoj nové agendy integrované do fakultní platformy HUB.FEL, používané pro sledování a vykazování stráveného času stážisty nad projekty a jednotlivými úkoly."
     tags: ["akademické", "probíhající"]
     url: "https://hdl.handle.net/10467/108647"

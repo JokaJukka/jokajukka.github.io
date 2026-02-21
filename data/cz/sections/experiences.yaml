@@ -16,7 +16,7 @@ experiences:
       - designation: Cvičící
         start: Úno 2024
         responsibilities:
-          - Cvičící předmětů fakulty "Programování v Java" a "Objektový návrh a modelování".
+          - Cvičící fakultních předmětů "Programování v Java" a "Objektový návrh a modelování".
   - company:
       name: Centrum znalostního managementu, FEL ČVUT
       url: "https://czm.fel.cvut.cz/"
@@ -24,11 +24,10 @@ experiences:
       logo: /images/experiences/logo_czm.png
       overview: CZM je samostatným pracovištěm děkanátu Fakulty elektrotechnické ČVUT. Jeho posláním je především rozvoj výuky a infrastruktury interních systémů fakulty, ale spolupracuje také s externími partnery.
     positions:
-      - designation: Senior Backend vývojář
+      - designation: Backend vývojář
         start: Čvc 2025
         responsibilities:
           - Vývoj podpůrných nástrojů pro [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
-          - Micronaut microservices v Kotlinu.
 
       - designation: Vedoucí PHP vývojář
         start: Úno 2022

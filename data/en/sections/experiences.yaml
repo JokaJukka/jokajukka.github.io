@@ -25,11 +25,10 @@ experiences:
       logo: /images/experiences/logo_czm.png
       overview: CZM is an independent department of the Dean's Office of the Faculty of Electrical Engineering at CTU. Their mission is primarily to develop teaching and the infrastructure of the faculty's internal systems, but they also collaborate with external partners.
     positions:
-      - designation: Senior Backend Developer
+      - designation: Backend Developer
         start: Jul 2025
         responsibilities:
           - Development of support tools for the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
-          - Micronaut microservices written in Kotlin.
 
       - designation: Lead PHP Developer
         start: Feb 2022
