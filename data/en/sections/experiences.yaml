@@ -49,6 +49,7 @@ experiences:
     positions:
       - designation: Web Developer
         start: Mar 2020
+        end: Dec 2024
         responsibilities:
           - Developing and maintaining various websites for companies, individuals etc.
           - Working in plain PHP, with frameworks (Nette) and CMS (Wordpress).

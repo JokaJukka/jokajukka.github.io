@@ -24,59 +24,76 @@ projects:
     summary: "![](/images/projects/deuss.svg) Backend development & technical leadership for the DEUSS blockchain initiative enabling SMEs to issue long-term digital bonds accessible throughout the EU."
     tags: ["professional", "ongoing"]
     url: "https://deussblockchain.eu"
+
   - name: Time tracking agenda for FEL.HUB platform
     role: Author
     timeline: "Aug 2024 - Jan 2026"
     summary: "![](/images/projects/timesup.png) Diploma's thesis focused on developing a new agenda integrated into HUB.FEL faculty platform used to track and report intern's spent hours on projects and tasks."
     tags: ["academic", "ongoing"]
     url: "https://hdl.handle.net/10467/108647"
+
   - name: CTU FEE Moodle
     role: Developer & Project leader
     timeline: "Nov 2020 - Jun 2025"
     summary: "![](/images/projects/moodle.jpg) Administration, maintenance and development of plugins for the Moodle FEE system, belonging to the Faculty of Electrical Engineering of the Czech Technical University in Prague."
     url: "https://moodle.fel.cvut.cz/?lang=en"
     tags: ["academic", "finished"]
+
+  - name: SEVA sheltered workshop Website
+    role: Vývojář
+    timeline: "Čvc 2023 - Lis 2024"
+    summary: "![](/images/projects/seva.jpg) Website managed in WordPress CMS; incorporation of a uniform visual identity matching the parent company."
+    url: "https://www.seva-chranena.cz/"
+    tags: ["profesní", "dokončené"]
+
   - name: PlagCheckr - Plagiarism detection
     role: Author
     timeline: "Nov 2022 - Jun 2023"
     summary: "![](/images/projects/plagcheckr.jpg) Bachelor's thesis focused on developing a plagiarism detection system."
     url: "https://hdl.handle.net/10467/108647"
     tags: ["academic", "finished"]
+
   - name: gBench Website
     role: Developer
     timeline: "Aug 2021 - Dec 2023"
     summary: "![](/images/projects/gbench-web.jpg) Customized website design and architecture, including a custom product configurator."
     url: "https://gbench.cz/"
     tags: ["professional", "finished"]
+
   - name: gBench ordering system
     role: Designer & Developer
     timeline: "Jun 2022 - Sep 2022"
     summary: "![](/images/projects/gbench-admin.jpg) Internal web-based system for managing and recording orders."
     tags: ["professional", "finished"]
+
   - name: Lorenc TZB Website
     role: Designer & Developer
     timeline: "May 2020 - Feb 2021"
     summary: "![](/images/projects/lorenctzb.jpg) Complete website for construction consulting company, with custom design and architecture."
     url: "https://lorenctzb.com/"
     tags: ["professional", "finished"]
+
   - name: Lcafé Hořičky e-shop
     role: Designer & Developer
     timeline: "Aug 2020 - Dec 2020"
     summary: "![](/images/projects/lcafe.jpg) E-shop and website design, based on the WordPress CMS."
     url: "https://lcafehoricky.cz/"
     tags: ["professional", "finished"]
+
   - name: Výfuk contest website
     role: Designer & Developer
     timeline: "Nov 2019 - Oct 2020"
     summary: "![](/images/projects/vyfuk.jpg) Second generation of website design for the physics contest Výfuk."
     url: "https://vyfuk.org/"
     tags: ["academic", "finished"]
+
   - name: stopr - stock prediction
     role: Author
     timeline: "Jan 2020 - May 2020"
     summary: "![](/images/projects/stopr.jpg) Python-based stock prediction app developed as part of the 42nd year of Students' Professional Activities (SPA)."
     repo: "https://github.com/JokaJukka/stopr"
     tags: ["academic", "finished"]
+
   - name: LEGO MINDSTORMS EV3 robot development
     role: Engineer
     timeline: "Feb 2016 - Jan 2020"

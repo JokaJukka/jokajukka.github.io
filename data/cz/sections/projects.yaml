@@ -39,6 +39,13 @@ projects:
     url: "https://moodle.fel.cvut.cz/?lang=cs"
     tags: ["akademické", "dokončené"]
 
+  - name: SEVA chráněná dílna web
+    role: Vývojář
+    timeline: "Čvc 2023 - Lis 2024"
+    summary: "![](/images/projects/seva.jpg) Webové stránky v CMS WordPress; zapracování jednotné vizuální identity s mateřskou společnosti."
+    url: "https://www.seva-chranena.cz/"
+    tags: ["profesní", "dokončené"]
+
   - name: PlagCheckr - detekce plagiátorství
     role: Autor
     timeline: "Lis 2022 - Čvn 2023"
