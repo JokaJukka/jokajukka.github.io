@@ -21,7 +21,7 @@ projects:
   - name: Vývoj DEUSS Core & Whitelabel aplikace
     role: Kotlin Developer & Offchain group TechLead
     timeline: "Čvc 2025 - dosud"
-    summary: "![](/images/projects/deuss.svg) Backendový vývojář & TechLead v blockchain iniciativě DEUSS, umožňující malým a středním podnikům vydávání dlouhodobých digitálních dluhopisů dostupných napříč EU."
+    summary: "![](/images/projects/deuss.svg) Backend vývojář & TechLead v blockchain iniciativě DEUSS, která umožní malým a středním podnikům vydávání a obchodování s digitálními dluhopisy napříč EU."
     tags: ["profesní", "probíhající"]
     url: "https://deussblockchain.eu"
 
