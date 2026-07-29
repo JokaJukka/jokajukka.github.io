@@ -1,9 +1,8 @@
 services:
   hugo:
-    image: hugomods/hugo:ci-0.160.1
-    entrypoint: sh -c "chmod +x docker_entrypoint.sh && ./docker_entrypoint.sh"
-    command: server
+    image: ghcr.io/gohugoio/hugo:v0.164.0
+    entrypoint: sh /project/docker_entrypoint.sh
     volumes:
-      - ".:/src"
+      - ".:/project"
     ports:
       - "1313:1313"
