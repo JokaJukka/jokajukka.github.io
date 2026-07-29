@@ -2,7 +2,7 @@ baseURL: "https://jokajukka.github.io"
 params:
   features:
     analytics:
-      enabled: true
+      enable: true
       services:
         goatCounter:
-          code: JokaJukka
+          code: jokajukka
