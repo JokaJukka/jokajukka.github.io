@@ -32,10 +32,10 @@ params:
 defaultContentLanguage: cz
 languages:
   cz:
-    languageName: Česky
-    languageCode: "cz"
+    locale: "cz"
+    label: Česky
     weight: 1
   en:
-    languageName: English
-    languageCode: "en"
+    locale: "en"
+    label: English
     weight: 2
