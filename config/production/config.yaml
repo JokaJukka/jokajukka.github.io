@@ -4,5 +4,6 @@ params:
     analytics:
       enable: true
       services:
+        enable: true # Workaround for https://github.com/hugo-themes/toha/issues/1178
         goatCounter:
           code: jokajukka
