@@ -1,6 +1,6 @@
 services:
   hugo:
-    image: ghcr.io/gohugoio/hugo:v0.164.0
+    image: ghcr.io/gohugoio/hugo:v0.168.0
     entrypoint: sh /project/docker_entrypoint.sh
     volumes:
       - ".:/project"
