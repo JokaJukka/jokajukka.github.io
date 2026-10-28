@@ -2,4 +2,4 @@
 # see https://github.com/hugo-toha/toha
 hugo mod npm pack && \
 npm install && \
-hugo server -w --bind 0.0.0.0 --cacheDir /tmp --noBuildLock -M
+hugo server -w --bind 0.0.0.0 --cacheDir /cache --noBuildLock -M

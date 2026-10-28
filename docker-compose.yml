@@ -4,5 +4,9 @@ services:
     entrypoint: sh /project/docker_entrypoint.sh
     volumes:
       - ".:/project"
+      - "hugo-cache:/cache"
     ports:
       - "1313:1313"
+
+volumes:
+  hugo-cache:
