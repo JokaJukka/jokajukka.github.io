@@ -1,5 +1,5 @@
 section:
-  name: Experiences
+  name: Work Experience
   id: experiences
   enable: true
   weight: 3
@@ -12,37 +12,40 @@ experiences:
       url: "https://fel.cvut.cz/"
       location: Prague
       logo: /images/education/logo_fel_en.svg
-      overview: The Faculty of Electrical Engineering of the Czech Technical University (FEE CTU) is one of eight faculties of the Czech Technical University in Prague (CTU) – the oldest and most prestigious technical university in the Czech Republic.
+      overview: The Faculty of&nbsp;Electrical Engineering (FEE) is one of&nbsp;eight faculties of&nbsp;the Czech Technical University in&nbsp;Prague (CTU)&nbsp;– the oldest and&nbsp;most prestigious technical university in&nbsp;the Czech Republic.
     positions:
       - designation: Course Instructor
         start: Feb 2024
         responsibilities:
-          - Instructor of the faculty subjects "Programming in Java" and "Object-oriented design and Modelling".
+          - Teaching the faculty subjects "Programming in&nbsp;Java" and&nbsp;"Object-Oriented Design and&nbsp;Modelling".
+          - Updating and&nbsp;creating new teaching materials.
   - company:
       name: Center for Knowledge Management, CTU FEE
       url: "https://czm.fel.cvut.cz/"
       location: Prague
       logo: /images/experiences/logo_czm.png
-      overview: CZM is an independent department of the Dean's Office of the Faculty of Electrical Engineering at CTU. Their mission is primarily to develop teaching and the infrastructure of the faculty's internal systems, but they also collaborate with external partners.
+      overview: CZM is an independent department of&nbsp;the Dean's Office of&nbsp;the Faculty of&nbsp;Electrical Engineering at&nbsp;CTU. Its mission is primarily the development of&nbsp;teaching and&nbsp;the infrastructure of&nbsp;the faculty's internal systems, but&nbsp;it also collaborates with&nbsp;external partners.
     positions:
       - designation: Backend Developer
         start: Jul 2025
         responsibilities:
-          - Development of support tools for the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Development of&nbsp;support tools for&nbsp;the [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Work on&nbsp;other internal and&nbsp;external projects.
 
       - designation: Lead PHP Developer
         start: Feb 2022
         end: Jun 2025
         responsibilities:
-          - Contributing to the development of [CTU FEE Moodle](https://moodle.fel.cvut.cz/) application.
-          - Project manager & lead developer.
+          - Active development of&nbsp;the faculty's [CTU FEE Moodle](https://moodle.fel.cvut.cz/) platform.
+          - Project management, long-term planning of&nbsp;new features and&nbsp;user support.
+          - Preparing and&nbsp;leading training sessions for&nbsp;teachers with&nbsp;the aim of&nbsp;improving the quality of&nbsp;teaching.
 
       - designation: PHP Developer
         start: Dec 2020
         end: Jan 2022
         responsibilities:
-          - Contributing to the development of [CTU FEE Moodle](https://moodle.fel.cvut.cz/) application.
-          - Working on assigned tasks solo or in team.
+          - Active development of&nbsp;the faculty's [CTU FEE Moodle](https://moodle.fel.cvut.cz/) platform.
+          - Working on&nbsp;assigned tasks independently or&nbsp;in&nbsp;a team.
   - company:
       name: Freelancer
       location: remote
@@ -51,24 +54,30 @@ experiences:
         start: Mar 2020
         end: Dec 2024
         responsibilities:
-          - Developing and maintaining various websites for companies, individuals etc.
-          - Working in plain PHP, with frameworks (Nette) and CMS (Wordpress).
+          - Development and&nbsp;maintenance of&nbsp;various websites for&nbsp;companies, individuals, etc.
+          - Working in&nbsp;plain PHP, with&nbsp;frameworks (Nette) and&nbsp;CMS (WordPress).
   - company:
       name: Physics contest Výfuk
       url: "https://vyfuk.org/"
       location: remote
       logo: /images/experiences/logo_vyfuk.svg
-      overview: Výfuk is a czech physics correspondence seminar for 5th - 9th grade elementary school students organized by high school and university students from all around the country.
+      overview: Výfuk is a Czech physics correspondence seminar for 5th&nbsp;–&nbsp;9th&nbsp;grade elementary school students organized by&nbsp;high school and&nbsp;university students from&nbsp;all around the country.
     positions:
+      - designation: Senior Organizer
+        start: Jan 2023
+        end: Sep 2026
+        responsibilities:
+          - Organizing in-person events for&nbsp;the seminar participants.
+          - Public promotion of&nbsp;the seminar and&nbsp;its activities.
       - designation: Head of IT Department
         start: Aug 2018
         end: Jan 2023
         responsibilities:
-          - Administration and development of internal systems (problem submission & grading, internal communication).
-          - Maintenance and design of public websites.
-
+          - Administration and&nbsp;development of&nbsp;internal systems (problem submission&nbsp;&amp;&nbsp;grading, internal communication).
+          - Maintenance and&nbsp;design of&nbsp;public websites.
       - designation: Organizer
         start: Sep 2016
+        end: Aug 2018
         responsibilities:
-          - Creating and grading competition problems.
-          - Organizing in-person events for the seminar participants.
+          - Creating and&nbsp;grading competition problems.
+          - Organizing in-person events for&nbsp;the seminar participants.

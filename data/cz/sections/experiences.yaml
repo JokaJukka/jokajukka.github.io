@@ -1,5 +1,5 @@
 section:
-  name: Zkušenosti
+  name: Pracovní zkušenosti
   id: experiences
   enable: true
   weight: 3
@@ -7,66 +7,76 @@ section:
 
 experiences:
   - company:
-      name: Fakulta elektrotechnická, České vysoké učení technické v Praze
+      name: Fakulta elektrotechnická, České vysoké učení technické v Praze
       url: "https://fel.cvut.cz/"
       location: Praha
       logo: /images/education/logo_fel_cs.svg
-      overview: Fakulta elektrotechnická ČVUT (FEL ČVUT) je jednou z 8 fakult Českého vysokého učení technického v Praze (ČVUT) – nejstarší a nejprestižnější technické univerzity v České republice.
+      overview: Fakulta elektrotechnická (FEL) je jednou z&nbsp;osmi fakult Českého vysokého učení technického v&nbsp;Praze (ČVUT)&nbsp;– nejstarší a&nbsp;nejprestižnější technické univerzity v&nbsp;České republice.
     positions:
       - designation: Cvičící
-        start: Úno 2024
+        start: Únor 2024
         responsibilities:
-          - Cvičící fakultních předmětů "Programování v Java" a "Objektový návrh a modelování".
+          - Výuka fakultních předmětů "Programování v&nbsp;Java" a&nbsp;"Objektový návrh a&nbsp;modelování".
+          - Aktualizace a&nbsp;tvorba nových výukových materiálů.
   - company:
       name: Centrum znalostního managementu, FEL ČVUT
       url: "https://czm.fel.cvut.cz/"
       location: Praha
       logo: /images/experiences/logo_czm.png
-      overview: CZM je samostatným pracovištěm děkanátu Fakulty elektrotechnické ČVUT. Jeho posláním je především rozvoj výuky a infrastruktury interních systémů fakulty, ale spolupracuje také s externími partnery.
+      overview: CZM je samostatným pracovištěm děkanátu Fakulty elektrotechnické ČVUT. Jeho posláním je především rozvoj výuky a&nbsp;infrastruktury interních systémů fakulty, rovněž však spolupracuje i&nbsp;s&nbsp;externími partnery.
     positions:
       - designation: Backend vývojář
-        start: Čvc 2025
+        start: Červenec 2025
         responsibilities:
           - Vývoj podpůrných nástrojů pro [DEUSS Blockchain Initiative](https://deussblockchain.eu/).
+          - Práce na dalších interních a&nbsp;externích projektech.
 
       - designation: Vedoucí PHP vývojář
-        start: Úno 2022
-        end: Čvn 2025
+        start: Únor 2022
+        end: Červen 2025
         responsibilities:
-          - Spolupráce na vývoji aplikace [CTU FEE Moodle](https://moodle.fel.cvut.cz/).
-          - Projektový manažer & vedoucí vývojář.
+          - Aktivní rozvoj fakultní platformy [Moodle FEL ČVUT](https://moodle.fel.cvut.cz/).
+          - Řízení projektu, dlouhodobé plánování nových funkcí a&nbsp;uživatelská podpora.
+          - Příprava a&nbsp;vedení školení pro vyučující s&nbsp;cílem zlepšení kvality výuky.
 
       - designation: PHP vývojář
-        start: Pro 2020
-        end: Led 2022
+        start: Prosinec 2020
+        end: Leden 2022
         responsibilities:
-          - Spolupráce na vývoji aplikace [CTU FEE Moodle](https://moodle.fel.cvut.cz/).
-          - Práce na zadaných úkolech samostatně nebo v týmu.
+          - Aktivní rozvoj fakultní platformy [Moodle FEL ČVUT](https://moodle.fel.cvut.cz/).
+          - Práce na zadaných úkolech samostatně nebo v&nbsp;týmu.
   - company:
       name: Na volné noze
       location: remote
     positions:
       - designation: Webový vývojář
-        start: Bře 2020
-        end: Pro 2024
+        start: Březen 2020
+        end: Prosinec 2024
         responsibilities:
-          - Vývoj a údržba různých webových stránek pro firmy, jednotlivce apod.
-          - Práce v čistém PHP, s frameworky (Nette) a CMS (WordPress).
+          - Vývoj a&nbsp;údržba různých webových stránek pro firmy, jednotlivce apod.
+          - Práce v&nbsp;čistém PHP, s&nbsp;frameworky (Nette) a&nbsp;CMS (WordPress).
   - company:
       name: Korespondenční seminář Výfuk
       url: "https://vyfuk.org/"
       location: remote
       logo: /images/experiences/logo_vyfuk.svg
-      overview: Výfuk je český fyzikální korespondenční seminář pro žáky 5. – 9. tříd základních škol organizovaný středoškoláky a vysokoškoláky z celé republiky.
+      overview: Výfuk je český fyzikální korespondenční seminář pro žáky 5.&nbsp;–&nbsp;9.&nbsp;tříd základních škol organizovaný středoškoláky a&nbsp;vysokoškoláky z&nbsp;celé republiky.
     positions:
+      - designation: Seniorní organizátor
+        start: Leden 2023
+        end: Září 2026
+        responsibilities:
+          - Organizování prezenčních akcí pro řešitele semináře.
+          - Veřejná propagace semináře a&nbsp;jeho aktivit.
       - designation: Vedoucí IT oddělení
-        start: Srp 2018
-        end: Led 2023
+        start: Srpen 2018
+        end: Leden 2023
         responsibilities:
-          - Správa a vývoj interních systémů (evidence a opravování úloh, interní komunikace).
-          - Údržba a návrh veřejných webových stránek.
-      - designation: Organizátor
-        start: Zář 2016
+          - Správa a&nbsp;vývoj interních systémů (evidence a&nbsp;opravování úloh, interní komunikace).
+          - Údržba a&nbsp;návrh veřejných webových stránek.
+      - designation: Řadový organizátor
+        start: Září 2016
+        end: Srpen 2018
         responsibilities:
-          - Vymýšlení a opravování soutěžních úloh.
+          - Vymýšlení a&nbsp;opravování soutěžních úloh.
           - Organizování prezenčních akcí pro řešitele semináře.

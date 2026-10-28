@@ -19,7 +19,7 @@ degrees:
         content: >
           majoritní specializace *Softwarové inženýrství*\
 
-          minoritní specializace *Interakce člověka s počítačem*
+          minoritní specializace *Interakce člověka s&nbsp;počítačem*
       - name: Diplomová práce
         content: "[Integrace vykazovacího nástroje TimesUP do platformy HUB.FEL](https://dspace.cvut.cz/handle/10467/123624)"
   - name: Bc. v oboru Softwarové inženýrství
@@ -31,7 +31,7 @@ degrees:
       logo: /images/education/logo_fel_cs.svg
     customSections:
       - name: Bakalářská práce
-        content: "[PlagCheckr - detekce plagiátorství s integrací do Moodle FEL](https://dspace.cvut.cz/handle/10467/108647)"
+        content: "[PlagCheckr&nbsp;- detekce plagiátorství s&nbsp;integrací do Moodle FEL](https://dspace.cvut.cz/handle/10467/108647)"
   - name: Střední škola
     icon: fa-book-open
     timeframe: 2016-2020
@@ -39,3 +39,11 @@ degrees:
       name: Jiráskovo gymnázium Náchod
       url: "https://www.gymnachod.cz/"
       logo: /images/education/logo_jgn.png
+    customSections:
+      - name: Reprezentační činnost
+        content: >
+          - 42\. ročník SOČ: Využití strojového učení pro predikci vývoje cen na světovém trhu (1. místo v krajském kole)
+
+          - účast v krajských kolech Matematické olympiády, Fyzikální olympiády a Astronomické olympiády
+
+          - několikanásobné vítěžství v celostátních robotických soutěžích

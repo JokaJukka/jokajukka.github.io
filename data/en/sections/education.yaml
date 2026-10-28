@@ -39,3 +39,11 @@ degrees:
       name: Jiráskovo gymnázium Náchod
       url: "https://www.gymnachod.cz/"
       logo: /images/education/logo_jgn.png
+    customSections:
+      - name: Competitions
+        content: >
+          - 42nd annual SOČ (Secondary School Academic Competition): Using machine learning to predict price trends on the global market (1st place in the regional round)
+
+          - Participation in the regional rounds of the Mathematical Olympiad, Physics Olympiad and Astronomy Olympiad
+
+          - Multiple victories in national robotics competitions
