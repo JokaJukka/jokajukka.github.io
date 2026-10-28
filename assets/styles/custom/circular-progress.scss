@@ -1,0 +1,51 @@
+// A nicer circular fill animation with fixed animation length rather than fixed animation speed
+
+$custom-circular-duration: 2s;
+$custom-circular-delay: 0.5s;
+
+.about-section .circular-progress {
+    // Right (first) half: owns the whole duration up to 50%,
+    // shares it with the left half above 50%.
+    @for $i from 0 through 20 {
+        $progress: $i * 5;
+
+        .circular-progress-right .circular-progress-percentage-#{$progress} {
+            @if $progress >= 50 {
+                animation-duration: $custom-circular-duration * 0.5;
+            } @else {
+                animation-duration: $custom-circular-duration;
+            }
+        }
+    }
+
+    // The theme's shorthand hardcodes a 1.8s delay, so override it on the
+    // elements. This is what makes $custom-circular-delay actually work.
+    .circular-progress-right .circular-progress-bar {
+        animation-delay: $custom-circular-delay;
+        animation-timing-function: ease-in-out;
+    }
+
+    // Above 50% the right half is only the first half of the movement:
+    // ease in here, then let the left half ease out.
+    &:not(:has(.circular-progress-left .circular-progress-percentage-0)) {
+        .circular-progress-right .circular-progress-bar {
+            animation-timing-function: ease-in;
+        }
+    }
+
+    // Left (second) half: always the second half of the total duration.
+    // Scoped by -50-delay so the deprecated softSkills markup is untouched.
+    .circular-progress-left .circular-progress-percentage-50-delay {
+        animation-duration: $custom-circular-duration * 0.5;
+        animation-delay: $custom-circular-delay + $custom-circular-duration *
+            0.5;
+        animation-timing-function: ease-out;
+    }
+
+    // Exactly 50% has no left-half fill, so let the right half use the full time.
+    &:has(.circular-progress-left .circular-progress-percentage-0) {
+        .circular-progress-right .circular-progress-percentage-50 {
+            animation-duration: $custom-circular-duration;
+        }
+    }
+}

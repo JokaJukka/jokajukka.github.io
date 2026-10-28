@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new TypeIt("#typed", {
     strings, // let TypeIt handle type/delete/next-string pauses
-    speed: 100,
-    deleteSpeed: 60,
+    speed: 90,
+    deleteSpeed: 30,
     lifeLike: false,
     breakLines: false,
     cursorChar: "|",
     waitUntilVisible: true,
     html: false,
     loop: true,
-    nextStringDelay: [1000, 400], // [pause after typing, pause after deleting]
-    loopDelay: [500, 1000], // [pause after deleting last, hold last string before deleting]
+    nextStringDelay: [800, 200], // [pause after typing, pause after deleting]
+    // loopDelay: [500, 1000], // [pause after deleting last, hold last string before deleting]
   }).go();
 });
