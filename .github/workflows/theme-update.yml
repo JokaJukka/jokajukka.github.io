@@ -23,6 +23,9 @@ jobs:
           hugo-version: " 0.169.0"
           extended: true
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Update hugo modules
         run: |
           # update to latest version of all modules
