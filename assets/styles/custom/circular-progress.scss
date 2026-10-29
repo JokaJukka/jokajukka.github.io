@@ -1,7 +1,7 @@
 // A nicer circular fill animation with fixed animation length rather than fixed animation speed
 
 $custom-circular-duration: 2s;
-$custom-circular-delay: 0.5s;
+$custom-circular-delay: 1.5s;
 
 .about-section .circular-progress {
     // Right (first) half: owns the whole duration up to 50%,
